@@ -1,0 +1,16 @@
+hospital_code,dept_code,dept_name
+JPR-SMS,MED,General Medicine
+JPR-SMS,SUR,General Surgery
+JPR-SMS,ORT,Orthopaedics
+JPR-SMS,OBS,Obstetrics
+JPR-SMS,PED,Paediatrics
+JPR-FORT,MED,Internal Medicine
+JPR-FORT,CAR,Cardiology
+JPR-FORT,ORT,Orthopaedics
+JPR-FORT,EMR,Emergency
+JPR-NAR,MED,General Medicine
+JPR-NAR,NEP,Nephrology
+JPR-NAR,GAS,Gastroenterology
+JPR-MET,MED,General Medicine
+JPR-MET,SUR,General Surgery
+JPR-MET,PUL,Pulmonology
