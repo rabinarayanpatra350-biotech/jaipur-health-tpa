@@ -1,0 +1,89 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    name: Test (Node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [20, 22]
+
+    # A real PostgreSQL, not a substitute: the tests exercise transactions,
+    # FOR UPDATE SKIP LOCKED and a CHECK constraint, none of which a mock would prove.
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: hospital_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+
+    env:
+      DATABASE_URL: postgres://postgres:postgres@127.0.0.1:5432/hospital_test
+      NODE_ENV: test
+      JWT_ACCESS_SECRET: ci-access-secret-at-least-32-characters-long
+      JWT_REFRESH_SECRET: ci-refresh-secret-at-least-32-characters-long
+      MAIL_TRANSPORT: record
+      CORS_ORIGINS: http://localhost:5173
+
+    defaults:
+      run:
+        working-directory: server
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+          cache-dependency-path: server/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint for syntax errors
+        run: |
+          set -e
+          for f in $(git ls-files 'server/src/**/*.js' 'server/tests/**/*.js' 'server/scripts/*.js' | sed 's|^server/||'); do
+            node --check "$f"
+          done
+
+      - name: Generate the raw exports
+        run: node scripts/generateRawData.js
+
+      - name: Migrate and seed
+        run: |
+          npm run migrate
+          npm run seed
+        env:
+          PG_BIN_DIR: ''   # CI uses the service container, not the bundled binaries
+
+      - name: Run unit and API tests
+        run: npm test
+
+  secrets:
+    name: No secrets in the repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fail if a .env or private key is committed
+        run: |
+          set -e
+          if git ls-files | grep -E '(^|/)\.env$|\.pem$|\.key$|id_rsa'; then
+            echo "::error::A secret-bearing file is tracked in the repository"; exit 1
+          fi
+          # a hard-coded 32+ char secret assignment is a leak, not a placeholder
+          if grep -rnE "(SECRET|PASSWORD|TOKEN)\s*=\s*['\"][A-Za-z0-9_-]{32,}['\"]" --include='*.js' --include='*.yml' . \
+             | grep -v '.env.example' | grep -v 'tests/'; then
+            echo "::error::A hard-coded secret was found"; exit 1
+          fi
+          echo "No committed secrets found."
