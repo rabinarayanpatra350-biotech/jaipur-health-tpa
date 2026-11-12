@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+uploads/
+.pgdata*/
+.pgsmoke/
+.pgint/
+.test-db-url
+coverage/
+*.log
+.DS_Store
