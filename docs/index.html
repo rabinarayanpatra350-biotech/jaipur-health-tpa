@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Jaipur Health TPA — network dashboard</title>
+<meta name="description" content="Clinic appointment and e-prescription platform for a Jaipur health-insurance TPA covering four hospitals." />
+<style>
+:root{--ink:#0f172a;--soft:#475569;--muted:#64748b;--line:#e2e8f0;--bg:#f8fafc;--surface:#fff;
+--brand:#0f5132;--brand2:#166534;--teal:#0d9488;--amber:#b45309;--danger:#b91c1c;--ok:#15803d;
+--r:10px;--sh:0 1px 2px rgba(15,23,42,.06),0 1px 3px rgba(15,23,42,.08);--shl:0 6px 12px -2px rgba(15,23,42,.10)}
+*{box-sizing:border-box}
+body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+color:var(--ink);background:var(--bg);line-height:1.55;-webkit-font-smoothing:antialiased}
+h1,h2,h3{margin:0 0 .5rem;line-height:1.25}h1{font-size:1.9rem;letter-spacing:-.02em}h2{font-size:1.22rem}h3{font-size:1.02rem}
+p{margin:0 0 .75rem}a{color:var(--brand2);text-decoration:none}a:hover{text-decoration:underline}
+code{font-family:ui-monospace,Menlo,monospace;background:#eef2f6;padding:.1em .35em;border-radius:4px;font-size:.88em}
+.container{max-width:1140px;margin:0 auto;padding:1.5rem 1.25rem}
+.nav{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.nav-inner{max-width:1140px;margin:0 auto;padding:.7rem 1.25rem;display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:.6rem;font-weight:700;color:var(--ink)}
+.brand:hover{text-decoration:none}
+.mark{display:grid;place-items:center;width:34px;height:34px;border-radius:8px;background:var(--brand);color:#fff;font-size:.8rem;font-weight:700}
+.nav-links{display:flex;gap:1.1rem;flex:1;flex-wrap:wrap}
+.nav-links a{color:var(--soft);font-size:.92rem}
+.nav-links a.on{color:var(--brand);font-weight:600;box-shadow:inset 0 -2px 0 var(--brand)}
+.hero{background:linear-gradient(155deg,#0b3d26,#0f5132 55%,#12633d);color:#fff;padding:2.6rem 0 2.2rem}
+.hero h1{color:#fff;max-width:26ch}.hero p{color:#c7e6d4;margin:0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:1.25rem;box-shadow:var(--sh);margin-bottom:1.2rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:1rem}
+.pcard{display:block;color:inherit;transition:box-shadow .14s,transform .14s}
+.pcard:hover{text-decoration:none;box-shadow:var(--shl);transform:translateY(-2px)}
+.ptop{display:flex;justify-content:space-between;align-items:center;margin-bottom:.55rem}
+.badge{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;background:#e6f2ea;color:var(--brand);padding:.15rem .5rem;border-radius:999px}
+.badge.teal{background:#e0f2f1;color:#0d9488}
+.muted{color:var(--muted)}.small{font-size:.84rem}
+.pfoot{display:flex;justify-content:space-between;font-size:.84rem;color:var(--soft);border-top:1px solid var(--line);padding-top:.55rem;margin-top:.6rem}
+.shead{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;margin-bottom:1rem}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(205px,1fr));gap:1rem;margin-bottom:1.2rem}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:1.05rem 1.15rem;box-shadow:var(--sh);display:flex;flex-direction:column;gap:.12rem}
+.kpi-l{font-size:.76rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:700}
+.kpi-v{font-size:1.7rem;font-weight:700;letter-spacing:-.02em;color:var(--brand)}
+.kpi-s{font-size:.8rem;color:var(--muted)}
+.table{width:100%;border-collapse:collapse;font-size:.9rem;margin-top:.6rem}
+.table th,.table td{text-align:left;padding:.58rem .65rem;border-bottom:1px solid var(--line)}
+.table th{font-size:.76rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);font-weight:700}
+.table tbody tr:hover{background:#f8fafc}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.bar{height:6px;background:#e8eef3;border-radius:999px;overflow:hidden;margin-top:.35rem}
+.bar>span{display:block;height:100%;background:var(--teal);border-radius:999px}
+.demo{background:#fffbeb;border:1px solid #fde68a;color:#92400e;font-size:.83rem;padding:.65rem .9rem;border-radius:8px;margin:1rem 0}
+.alert{padding:.7rem .9rem;border-radius:8px;font-size:.9rem;margin:.75rem 0}
+.err{background:#fef2f2;color:var(--danger);border:1px solid #fecaca}
+.foot{border-top:1px solid var(--line);background:var(--surface);margin-top:2rem}
+.foot-in{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding:1.2rem;font-size:.84rem;color:var(--soft)}
+.foot p{margin:0}
+ul.plain{list-style:none;padding:0;margin:0}
+ul.plain li{padding:.45rem 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:.75rem}
+ul.plain li:last-child{border-bottom:0}
+.two{display:grid;grid-template-columns:1.5fr 1fr;gap:1.2rem;align-items:start}
+@media(max-width:860px){.two{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="nav-inner">
+  <a class="brand" href="#/"><span class="mark">JH</span><span>Jaipur Health TPA</span></a>
+  <nav class="nav-links">
+    <a href="#/" data-nav="home">Network</a>
+    <a href="#/dashboard" data-nav="dashboard">Claims dashboard</a>
+  </nav>
+</div></header>
+<main id="app"><div class="container"><p class="muted">Loading…</p></div></main>
+<footer class="foot"><div class="foot-in">
+  <p>Jaipur Health TPA — four hospitals, one clinical record.</p>
+  <p class="muted">Portfolio project. Anonymised data; no real patients.</p>
+</div></footer>
+
+<script>
+/* ---------------------------------------------------------------------------
+   Static build of the clinic platform, for GitHub Pages.
+
+   The full application runs a Node/Express API (see /server) with JWT sessions
+   and staff roles. GitHub Pages serves files and runs no code, so this build
+   reads the same PostgreSQL database through Supabase's REST API instead — and
+   only from views that expose aggregates. No patient row, no diagnosis and no
+   prescription is reachable from here; row-level security closes every clinical
+   table to anonymous access entirely.
+   --------------------------------------------------------------------------- */
+const SUPABASE = 'https://itenmqddqpzecmrxhrbg.supabase.co';
+const KEY = 'sb_publishable_4r9qVNkW9IsDISbrwHB-3w_xYATzESl';
+const HDR = { apikey: KEY, Authorization: 'Bearer ' + KEY };
+const WINDOW_DAYS = 365;
+
+const api = async (path) => {
+  const res = await fetch(`${SUPABASE}/rest/v1/${path}`, { headers: HDR });
+  const text = await res.text();
+  let body = null; try { body = text ? JSON.parse(text) : null; } catch { body = text; }
+  if (!res.ok) throw new Error((body && body.message) || ('Request failed ' + res.status));
+  return body;
+};
+
+const inr = (n) => new Intl.NumberFormat('en-IN', { maximumFractionDigits: 0 }).format(Number(n) || 0);
+const pct = (n) => (Number(n) * 100).toFixed(1) + '%';
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const el = (id) => document.getElementById(id);
+const app = () => el('app');
+
+/** Occupancy is bed-days used over bed-days available in the window. */
+const withDerived = (h) => {
+  const available = h.beds * WINDOW_DAYS;
+  return {
+    ...h,
+    availableBedDays: available,
+    occupancy: available > 0 ? h.bed_days_used / available : 0,
+    readmission: h.discharges > 0 ? h.readmitted_30d / h.discharges : 0,
+    adrNote: null,
+  };
+};
+
+/* ------------------------------------------------------------------ home */
+async function home() {
+  app().innerHTML = `
+  <section class="hero"><div class="container">
+    <h1>Four hospitals. One claims view that adds up.</h1>
+    <p>Appointments, admissions and e-prescriptions across the network — normalised, coded and measured.</p>
+  </div></section>
+  <div class="container">
+    <div class="shead"><h2>Network</h2><span class="muted" id="count"></span></div>
+    <div class="grid" id="grid"><p class="muted">Loading hospitals…</p></div>
+  </div>`;
+  const rows = await api('public_hospital_metrics?select=*&order=name.asc');
+  el('count').textContent = `${rows.length} hospitals · ${inr(rows.reduce((s, r) => s + r.beds, 0))} licensed beds`;
+  el('grid').innerHTML = rows.map(h => `
+    <a class="card pcard" href="#/h/${h.id}">
+      <div class="ptop"><span class="badge">${esc(h.code)}</span>
+        <span class="badge teal">${h.beds} beds</span></div>
+      <h3>${esc(h.name)}</h3>
+      <p class="muted small">${esc(h.city)} · ${h.doctors} doctors</p>
+      <div class="pfoot"><span>${inr(h.admissions)} admissions</span>
+        <span>ALOS ${h.alos_days} d</span></div>
+    </a>`).join('');
+}
+
+/* ------------------------------------------------------------- hospital */
+async function hospital(id) {
+  app().innerHTML = '<div class="container"><p class="muted">Loading…</p></div>';
+  const [h] = await api(`public_hospital_metrics?select=*&id=eq.${id}`);
+  if (!h) { app().innerHTML = '<div class="container"><div class="alert err">Hospital not found.</div></div>'; return; }
+  const d = withDerived(h);
+  const [docs, deps] = await Promise.all([
+    api(`doctors?select=full_name,speciality,registration&hospital_id=eq.${id}&order=full_name.asc`),
+    api(`departments?select=name,code&hospital_id=eq.${id}&order=name.asc`),
+  ]);
+  app().innerHTML = `
+  <div class="container">
+    <span class="badge">${esc(h.code)}</span>
+    <h1>${esc(h.name)}</h1>
+    <p class="muted">${esc(h.city)} · ${h.beds} licensed beds · ${h.doctors} doctors · ${inr(h.admissions)} admissions</p>
+    <div class="kpis">
+      <div class="kpi"><span class="kpi-l">Average length of stay</span><span class="kpi-v">${h.alos_days} d</span>
+        <span class="kpi-s">${inr(h.discharges)} discharges</span></div>
+      <div class="kpi"><span class="kpi-l">Bed occupancy</span><span class="kpi-v">${pct(d.occupancy)}</span>
+        <span class="kpi-s">${inr(h.bed_days_used)} of ${inr(d.availableBedDays)} bed-days</span></div>
+      <div class="kpi"><span class="kpi-l">30-day readmission</span><span class="kpi-v">${pct(d.readmission)}</span>
+        <span class="kpi-s">${h.readmitted_30d} of ${inr(h.discharges)} discharges</span></div>
+      <div class="kpi"><span class="kpi-l">Currently admitted</span><span class="kpi-v">${h.open_stays}</span>
+        <span class="kpi-s">open stays</span></div>
+    </div>
+    <div class="two">
+      <section class="card"><h2>Departments</h2>
+        <ul class="plain">${deps.map(x => `<li><span>${esc(x.name)}</span><span class="muted small">${esc(x.code)}</span></li>`).join('')}</ul>
+      </section>
+      <section class="card"><h2>Doctors</h2>
+        <ul class="plain">${docs.slice(0, 8).map(x => `<li><span>${esc(x.full_name)}<div class="muted small">${esc(x.speciality || '')}</div></span><span class="muted small">${esc(x.registration || '')}</span></li>`).join('')}</ul>
+        ${docs.length > 8 ? `<p class="muted small">and ${docs.length - 8} more</p>` : ''}
+      </section>
+    </div>
+    <div class="demo">This is the static build served by GitHub Pages. It reads the same live database as the full
+    application, through aggregate-only views. Sign-in, staff roles and patient records live in the Express API
+    in <code>/server</code>, which is covered by the test suite.</div>
+  </div>`;
+}
+
+/* ------------------------------------------------------------ dashboard */
+async function dashboard() {
+  app().innerHTML = '<div class="container"><p class="muted">Calculating…</p></div>';
+  const rows = (await api('public_hospital_metrics?select=*&order=name.asc')).map(withDerived);
+  const T = rows.reduce((a, r) => ({
+    discharges: a.discharges + r.discharges,
+    bedDays: a.bedDays + r.bed_days_used,
+    available: a.available + r.availableBedDays,
+    readmitted: a.readmitted + r.readmitted_30d,
+    admissions: a.admissions + r.admissions,
+  }), { discharges: 0, bedDays: 0, available: 0, readmitted: 0, admissions: 0 });
+  const alos = T.discharges ? (T.bedDays / T.discharges) : 0;
+  const occ = T.available ? T.bedDays / T.available : 0;
+  const readm = T.discharges ? T.readmitted / T.discharges : 0;
+
+  app().innerHTML = `
+  <div class="container">
+    <div class="shead"><h1>Claims dashboard</h1><span class="muted">${WINDOW_DAYS}-night window · live data</span></div>
+    <div class="demo">Read-only view. The full application computes these figures server-side in one place, with a
+    date-range picker, so the dashboard, the API tests and the written report cannot disagree.</div>
+    <div class="kpis">
+      <div class="kpi"><span class="kpi-l">Average length of stay</span><span class="kpi-v">${alos.toFixed(2)} d</span>
+        <span class="kpi-s">${inr(T.discharges)} discharges</span></div>
+      <div class="kpi"><span class="kpi-l">Bed occupancy</span><span class="kpi-v">${pct(occ)}</span>
+        <span class="kpi-s">${inr(T.bedDays)} of ${inr(T.available)} bed-days</span></div>
+      <div class="kpi"><span class="kpi-l">30-day readmission</span><span class="kpi-v">${pct(readm)}</span>
+        <span class="kpi-s">${T.readmitted} of ${inr(T.discharges)} discharges</span></div>
+      <div class="kpi"><span class="kpi-l">Admissions</span><span class="kpi-v">${inr(T.admissions)}</span>
+        <span class="kpi-s">across ${rows.length} hospitals</span></div>
+    </div>
+    <section class="card"><h2>By hospital</h2>
+      <table class="table"><thead><tr><th>Hospital</th><th class="num">Beds</th><th class="num">Admissions</th>
+        <th class="num">ALOS</th><th class="num">Occupancy</th><th class="num">Readmission</th></tr></thead>
+      <tbody>${rows.map(r => `<tr>
+        <td><a href="#/h/${r.id}">${esc(r.name)}</a> <span class="muted small">${esc(r.code)}</span></td>
+        <td class="num">${r.beds}</td><td class="num">${inr(r.admissions)}</td>
+        <td class="num">${r.alos_days} d</td>
+        <td class="num">${pct(r.occupancy)}<div class="bar"><span style="width:${Math.min(100, r.occupancy * 100).toFixed(1)}%"></span></div></td>
+        <td class="num">${pct(r.readmission)}</td></tr>`).join('')}</tbody></table>
+    </section>
+  </div>`;
+}
+
+/* -------------------------------------------------------------- router */
+function mark(name) {
+  document.querySelectorAll('[data-nav]').forEach(a => a.classList.toggle('on', a.dataset.nav === name));
+}
+async function route() {
+  const h = location.hash.replace(/^#\/?/, '');
+  try {
+    if (h.startsWith('h/')) { mark('home'); await hospital(h.slice(2)); }
+    else if (h === 'dashboard') { mark('dashboard'); await dashboard(); }
+    else { mark('home'); await home(); }
+  } catch (e) {
+    app().innerHTML = `<div class="container"><div class="alert err">Could not load: ${esc(e.message)}</div></div>`;
+  }
+  window.scrollTo(0, 0);
+}
+window.addEventListener('hashchange', route);
+route();
+</script>
+</body>
+</html>
