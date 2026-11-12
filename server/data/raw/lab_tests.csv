@@ -1,0 +1,1201 @@
+test_ref,hospital_code,patient_mrn,test_name,loinc_code,ordered_at,result_value,result_unit,status
+LAB-00001,JPR-SMS,PT-100751,"HbA1c",HBA1C,2026-01-23,24,"%",resulted
+LAB-00002,JPR-FORT,PT-100622,"Total leukocyte count",TLC,2026-05-29,102,"/uL",resulted
+LAB-00003,JPR-NAR,PT-101382,"Total leukocyte count",TLC,2026-09-26,133,"/uL",resulted
+LAB-00004,JPR-MET,PT-100431,"HbA1c",HBA1C,2026-02-05,95,"%",resulted
+LAB-00005,JPR-FORT,PT-100180,"Urine routine",UR,2026-02-19,104,"",resulted
+LAB-00006,JPR-SMS,PT-100486,"Serum sodium",NA,2026-04-16,173,"mmol/L",resulted
+LAB-00007,JPR-NAR,PT-101143,"Urine routine",UR,2026-09-17,26,"",resulted
+LAB-00008,JPR-NAR,PT-100377,"Total leukocyte count",TLC,2026-02-20,118,"/uL",resulted
+LAB-00009,JPR-SMS,PT-100287,"Haemoglobin",Hb,2026-08-03,103,"g/dL",resulted
+LAB-00010,JPR-NAR,PT-101236,"Total leukocyte count",TLC,2026-02-02,139,"/uL",resulted
+LAB-00011,JPR-MET,PT-101353,"Chest X-ray",CXR,2026-01-30,179,"",resulted
+LAB-00012,JPR-FORT,PT-100687,"Serum sodium",NA,2026-02-02,,"mmol/L",ordered
+LAB-00013,JPR-MET,PT-101423,"Urine routine",UR,2026-07-17,151,"",resulted
+LAB-00014,JPR-FORT,PT-100811,"Serum sodium",NA,2026-03-19,125,"mmol/L",resulted
+LAB-00015,JPR-NAR,PT-101134,"Fasting glucose",FBS,2026-09-08,,"mg/dL",collected
+LAB-00016,JPR-MET,PT-100159,"Total leukocyte count",TLC,2026-09-06,143,"/uL",resulted
+LAB-00017,JPR-NAR,PT-100009,"Serum creatinine",CREA,2026-09-22,82,"mg/dL",resulted
+LAB-00018,JPR-NAR,PT-100644,"Urine routine",UR,2026-03-07,,"",cancelled
+LAB-00019,JPR-MET,PT-100322,"Chest X-ray",CXR,2026-01-02,114,"",resulted
+LAB-00020,JPR-SMS,PT-101079,"Haemoglobin",Hb,2026-07-12,,"g/dL",ordered
+LAB-00021,JPR-NAR,PT-100611,"Urine routine",UR,2026-07-27,122,"",resulted
+LAB-00022,JPR-NAR,PT-101378,"Total leukocyte count",TLC,2026-07-22,76,"/uL",resulted
+LAB-00023,JPR-NAR,PT-101488,"Urine routine",UR,2026-04-28,94,"",resulted
+LAB-00024,JPR-NAR,PT-100588,"Serum creatinine",CREA,2026-01-16,25,"mg/dL",resulted
+LAB-00025,JPR-SMS,PT-101047,"Haemoglobin",Hb,2026-01-30,,"g/dL",ordered
+LAB-00026,JPR-MET,PT-101335,"Total leukocyte count",TLC,2026-03-20,,"/uL",collected
+LAB-00027,JPR-MET,PT-100238,"HbA1c",HBA1C,2026-06-10,179,"%",resulted
+LAB-00028,JPR-MET,PT-100067,"Chest X-ray",CXR,2026-09-12,36,"",resulted
+LAB-00029,JPR-FORT,PT-100839,"HbA1c",HBA1C,2026-09-29,103,"%",resulted
+LAB-00030,JPR-SMS,PT-100801,"Chest X-ray",CXR,2026-06-09,6,"",resulted
+LAB-00031,JPR-FORT,PT-100386,"Serum sodium",NA,2026-05-29,56,"mmol/L",resulted
+LAB-00032,JPR-FORT,PT-100517,"HbA1c",HBA1C,2026-05-19,65,"%",resulted
+LAB-00033,JPR-MET,PT-101000,"Serum creatinine",CREA,2026-06-28,33,"mg/dL",resulted
+LAB-00034,JPR-SMS,PT-101451,"Serum sodium",NA,2026-03-20,97,"mmol/L",resulted
+LAB-00035,JPR-MET,PT-100636,"Chest X-ray",CXR,2026-05-05,,"",cancelled
+LAB-00036,JPR-SMS,PT-100691,"Fasting glucose",FBS,2026-07-28,10,"mg/dL",resulted
+LAB-00037,JPR-MET,PT-101239,"Haemoglobin",Hb,2026-01-25,43,"g/dL",resulted
+LAB-00038,JPR-NAR,PT-100914,"Serum sodium",NA,2026-01-19,,"mmol/L",cancelled
+LAB-00039,JPR-SMS,PT-100030,"HbA1c",HBA1C,2026-09-21,142,"%",resulted
+LAB-00040,JPR-MET,PT-101049,"Urine routine",UR,2026-08-04,105,"",resulted
+LAB-00041,JPR-NAR,PT-100701,"Urine routine",UR,2026-03-06,55,"",resulted
+LAB-00042,JPR-MET,PT-100780,"Serum creatinine",CREA,2026-03-25,80,"mg/dL",resulted
+LAB-00043,JPR-SMS,PT-100833,"Haemoglobin",Hb,2026-02-03,57,"g/dL",resulted
+LAB-00044,JPR-NAR,PT-101327,"Urine routine",UR,2026-05-01,47,"",resulted
+LAB-00045,JPR-NAR,PT-100701,"Haemoglobin",Hb,2026-02-07,9,"g/dL",resulted
+LAB-00046,JPR-NAR,PT-100584,"Total leukocyte count",TLC,2026-03-16,,"/uL",cancelled
+LAB-00047,JPR-SMS,PT-101212,"HbA1c",HBA1C,2026-10-21,,"%",collected
+LAB-00048,JPR-FORT,PT-100864,"Fasting glucose",FBS,2026-10-17,,"mg/dL",ordered
+LAB-00049,JPR-NAR,PT-100314,"Fasting glucose",FBS,2026-04-25,54,"mg/dL",resulted
+LAB-00050,JPR-MET,PT-100670,"Total leukocyte count",TLC,2026-09-06,165,"/uL",resulted
+LAB-00051,JPR-NAR,PT-100596,"Serum sodium",NA,2026-08-21,42,"mmol/L",resulted
+LAB-00052,JPR-NAR,PT-100172,"Fasting glucose",FBS,2026-09-27,,"mg/dL",collected
+LAB-00053,JPR-NAR,PT-100064,"Serum creatinine",CREA,2026-10-16,,"mg/dL",collected
+LAB-00054,JPR-NAR,PT-100182,"Fasting glucose",FBS,2026-03-19,,"mg/dL",collected
+LAB-00055,JPR-NAR,PT-100932,"Chest X-ray",CXR,2026-09-21,115,"",resulted
+LAB-00056,JPR-NAR,PT-100696,"Chest X-ray",CXR,2026-03-20,51,"",resulted
+LAB-00057,JPR-MET,PT-101521,"Serum sodium",NA,2026-01-05,,"mmol/L",ordered
+LAB-00058,JPR-MET,PT-100878,"HbA1c",HBA1C,2026-04-11,79,"%",resulted
+LAB-00059,JPR-FORT,PT-100803,"Haemoglobin",Hb,2026-02-17,123,"g/dL",resulted
+LAB-00060,JPR-SMS,PT-101239,"Serum creatinine",CREA,2026-03-13,18,"mg/dL",resulted
+LAB-00061,JPR-NAR,PT-101261,"Serum creatinine",CREA,2026-05-27,104,"mg/dL",resulted
+LAB-00062,JPR-SMS,PT-101497,"Chest X-ray",CXR,2026-09-23,141,"",resulted
+LAB-00063,JPR-FORT,PT-100687,"Serum creatinine",CREA,2026-03-16,102,"mg/dL",resulted
+LAB-00064,JPR-NAR,PT-100194,"Chest X-ray",CXR,2026-01-10,100,"",resulted
+LAB-00065,JPR-MET,PT-100568,"HbA1c",HBA1C,2026-05-26,3,"%",resulted
+LAB-00066,JPR-FORT,PT-101004,"Serum sodium",NA,2026-06-18,14,"mmol/L",resulted
+LAB-00067,JPR-NAR,PT-101070,"Urine routine",UR,2026-06-23,,"",cancelled
+LAB-00068,JPR-SMS,PT-100548,"Urine routine",UR,2026-01-19,178,"",resulted
+LAB-00069,JPR-NAR,PT-100355,"Urine routine",UR,2026-06-07,63,"",resulted
+LAB-00070,JPR-SMS,PT-100009,"Haemoglobin",Hb,2026-10-18,4,"g/dL",resulted
+LAB-00071,JPR-SMS,PT-101042,"Urine routine",UR,2026-03-23,36,"",resulted
+LAB-00072,JPR-MET,PT-100870,"Chest X-ray",CXR,2026-05-27,58,"",resulted
+LAB-00073,JPR-SMS,PT-101132,"Urine routine",UR,2026-06-10,108,"",resulted
+LAB-00074,JPR-NAR,PT-100390,"Haemoglobin",Hb,2026-01-16,77,"g/dL",resulted
+LAB-00075,JPR-NAR,PT-100410,"Total leukocyte count",TLC,2026-09-06,141,"/uL",resulted
+LAB-00076,JPR-SMS,PT-101270,"Serum sodium",NA,2026-01-07,123,"mmol/L",resulted
+LAB-00077,JPR-SMS,PT-100412,"Total leukocyte count",TLC,2026-08-07,41,"/uL",resulted
+LAB-00078,JPR-NAR,PT-100044,"Fasting glucose",FBS,2026-09-16,166,"mg/dL",resulted
+LAB-00079,JPR-SMS,PT-100770,"Total leukocyte count",TLC,2026-06-30,168,"/uL",resulted
+LAB-00080,JPR-MET,PT-101434,"HbA1c",HBA1C,2026-01-23,160,"%",resulted
+LAB-00081,JPR-SMS,PT-101260,"Serum sodium",NA,2026-03-10,128,"mmol/L",resulted
+LAB-00082,JPR-SMS,PT-101081,"Total leukocyte count",TLC,2026-06-20,105,"/uL",resulted
+LAB-00083,JPR-SMS,PT-100953,"HbA1c",HBA1C,2026-02-10,68,"%",resulted
+LAB-00084,JPR-NAR,PT-101439,"Serum sodium",NA,2026-03-05,116,"mmol/L",resulted
+LAB-00085,JPR-NAR,PT-101493,"Serum sodium",NA,2026-06-15,88,"mmol/L",resulted
+LAB-00086,JPR-FORT,PT-100958,"Total leukocyte count",TLC,2026-09-11,55,"/uL",resulted
+LAB-00087,JPR-FORT,PT-100569,"Haemoglobin",Hb,2026-03-23,10,"g/dL",resulted
+LAB-00088,JPR-NAR,PT-100745,"Fasting glucose",FBS,2026-10-01,113,"mg/dL",resulted
+LAB-00089,JPR-FORT,PT-100139,"Urine routine",UR,2026-09-23,18,"",resulted
+LAB-00090,JPR-SMS,PT-100100,"Serum creatinine",CREA,2026-06-05,,"mg/dL",ordered
+LAB-00091,JPR-SMS,PT-100987,"Urine routine",UR,2026-01-28,47,"",resulted
+LAB-00092,JPR-MET,PT-101480,"Fasting glucose",FBS,2026-07-07,65,"mg/dL",resulted
+LAB-00093,JPR-FORT,PT-101316,"Haemoglobin",Hb,2026-02-19,129,"g/dL",resulted
+LAB-00094,JPR-NAR,PT-100087,"Haemoglobin",Hb,2026-06-19,,"g/dL",cancelled
+LAB-00095,JPR-SMS,PT-100681,"Serum creatinine",CREA,2026-07-18,13,"mg/dL",resulted
+LAB-00096,JPR-SMS,PT-100767,"Serum sodium",NA,2026-03-03,159,"mmol/L",resulted
+LAB-00097,JPR-NAR,PT-100289,"Fasting glucose",FBS,2026-01-02,4,"mg/dL",resulted
+LAB-00098,JPR-MET,PT-100030,"Serum creatinine",CREA,2026-05-01,115,"mg/dL",resulted
+LAB-00099,JPR-NAR,PT-100206,"Serum creatinine",CREA,2026-06-27,6,"mg/dL",resulted
+LAB-00100,JPR-MET,PT-101060,"Serum sodium",NA,2026-06-21,52,"mmol/L",resulted
+LAB-00101,JPR-MET,PT-100504,"Fasting glucose",FBS,2026-05-01,43,"mg/dL",resulted
+LAB-00102,JPR-FORT,PT-100281,"Serum sodium",NA,2026-05-28,179,"mmol/L",resulted
+LAB-00103,JPR-SMS,PT-100031,"Serum creatinine",CREA,2026-05-05,44,"mg/dL",resulted
+LAB-00104,JPR-MET,PT-100374,"Serum creatinine",CREA,2026-08-08,171,"mg/dL",resulted
+LAB-00105,JPR-FORT,PT-100601,"Serum sodium",NA,2026-03-15,124,"mmol/L",resulted
+LAB-00106,JPR-MET,PT-101293,"Chest X-ray",CXR,2026-03-19,91,"",resulted
+LAB-00107,JPR-SMS,PT-100367,"HbA1c",HBA1C,2026-08-18,126,"%",resulted
+LAB-00108,JPR-MET,PT-100524,"Fasting glucose",FBS,2026-02-06,137,"mg/dL",resulted
+LAB-00109,JPR-FORT,PT-100198,"Chest X-ray",CXR,2026-07-28,92,"",resulted
+LAB-00110,JPR-SMS,PT-100655,"Urine routine",UR,2026-04-09,11,"",resulted
+LAB-00111,JPR-NAR,PT-101473,"Serum creatinine",CREA,2026-04-25,174,"mg/dL",resulted
+LAB-00112,JPR-MET,PT-101356,"Fasting glucose",FBS,2026-03-11,174,"mg/dL",resulted
+LAB-00113,JPR-FORT,PT-100058,"Haemoglobin",Hb,2026-04-01,130,"g/dL",resulted
+LAB-00114,JPR-SMS,PT-100530,"Serum sodium",NA,2026-01-23,177,"mmol/L",resulted
+LAB-00115,JPR-NAR,PT-101392,"Fasting glucose",FBS,2026-10-04,32,"mg/dL",resulted
+LAB-00116,JPR-SMS,PT-100794,"Fasting glucose",FBS,2026-06-17,,"mg/dL",cancelled
+LAB-00117,JPR-NAR,PT-101202,"Serum sodium",NA,2026-01-02,115,"mmol/L",resulted
+LAB-00118,JPR-SMS,PT-101070,"Urine routine",UR,2026-05-23,169,"",resulted
+LAB-00119,JPR-FORT,PT-100256,"Haemoglobin",Hb,2026-06-19,,"g/dL",ordered
+LAB-00120,JPR-NAR,PT-100696,"Serum creatinine",CREA,2026-09-19,,"mg/dL",cancelled
+LAB-00121,JPR-FORT,PT-101452,"Fasting glucose",FBS,2026-09-25,,"mg/dL",collected
+LAB-00122,JPR-SMS,PT-101180,"Fasting glucose",FBS,2026-03-20,109,"mg/dL",resulted
+LAB-00123,JPR-SMS,PT-100503,"Haemoglobin",Hb,2026-05-24,117,"g/dL",resulted
+LAB-00124,JPR-SMS,PT-100227,"Chest X-ray",CXR,2026-08-26,156,"",resulted
+LAB-00125,JPR-FORT,PT-100075,"HbA1c",HBA1C,2026-08-24,,"%",cancelled
+LAB-00126,JPR-SMS,PT-100513,"Serum sodium",NA,2026-05-12,42,"mmol/L",resulted
+LAB-00127,JPR-NAR,PT-101462,"Urine routine",UR,2026-01-13,24,"",resulted
+LAB-00128,JPR-MET,PT-101149,"Haemoglobin",Hb,2026-07-21,68,"g/dL",resulted
+LAB-00129,JPR-SMS,PT-101375,"Chest X-ray",CXR,2026-07-20,153,"",resulted
+LAB-00130,JPR-SMS,PT-101185,"HbA1c",HBA1C,2026-01-16,173,"%",resulted
+LAB-00131,JPR-SMS,PT-100519,"Haemoglobin",Hb,2026-10-04,,"g/dL",ordered
+LAB-00132,JPR-SMS,PT-100618,"Total leukocyte count",TLC,2026-08-31,20,"/uL",resulted
+LAB-00133,JPR-SMS,PT-100470,"HbA1c",HBA1C,2026-09-22,81,"%",resulted
+LAB-00134,JPR-NAR,PT-100051,"Haemoglobin",Hb,2026-04-01,10,"g/dL",resulted
+LAB-00135,JPR-SMS,PT-100855,"Total leukocyte count",TLC,2026-10-04,12,"/uL",resulted
+LAB-00136,JPR-SMS,PT-100477,"HbA1c",HBA1C,2026-10-11,147,"%",resulted
+LAB-00137,JPR-MET,PT-100035,"Haemoglobin",Hb,2026-02-18,7,"g/dL",resulted
+LAB-00138,JPR-MET,PT-100521,"Fasting glucose",FBS,2026-10-19,130,"mg/dL",resulted
+LAB-00139,JPR-MET,PT-101370,"HbA1c",HBA1C,2026-07-30,110,"%",resulted
+LAB-00140,JPR-NAR,PT-101007,"Serum creatinine",CREA,2026-02-01,176,"mg/dL",resulted
+LAB-00141,JPR-SMS,PT-100080,"Chest X-ray",CXR,2026-05-29,51,"",resulted
+LAB-00142,JPR-NAR,PT-101213,"Fasting glucose",FBS,2026-02-10,10,"mg/dL",resulted
+LAB-00143,JPR-FORT,PT-100795,"Serum sodium",NA,2026-03-17,82,"mmol/L",resulted
+LAB-00144,JPR-SMS,PT-100498,"Haemoglobin",Hb,2026-08-10,34,"g/dL",resulted
+LAB-00145,JPR-MET,PT-100400,"HbA1c",HBA1C,2026-08-09,111,"%",resulted
+LAB-00146,JPR-NAR,PT-101100,"Total leukocyte count",TLC,2026-03-15,88,"/uL",resulted
+LAB-00147,JPR-SMS,PT-100767,"Chest X-ray",CXR,2026-03-06,176,"",resulted
+LAB-00148,JPR-MET,PT-100630,"Fasting glucose",FBS,2026-02-13,71,"mg/dL",resulted
+LAB-00149,JPR-NAR,PT-100454,"Total leukocyte count",TLC,2026-02-03,23,"/uL",resulted
+LAB-00150,JPR-SMS,PT-101316,"HbA1c",HBA1C,2026-05-15,,"%",ordered
+LAB-00151,JPR-MET,PT-100228,"Total leukocyte count",TLC,2026-10-28,8,"/uL",resulted
+LAB-00152,JPR-SMS,PT-100893,"Urine routine",UR,2026-03-22,180,"",resulted
+LAB-00153,JPR-FORT,PT-101241,"Serum sodium",NA,2026-05-27,128,"mmol/L",resulted
+LAB-00154,JPR-SMS,PT-100577,"Urine routine",UR,2026-03-23,,"",cancelled
+LAB-00155,JPR-SMS,PT-100968,"Serum sodium",NA,2026-08-04,6,"mmol/L",resulted
+LAB-00156,JPR-MET,PT-100351,"Fasting glucose",FBS,2026-08-17,132,"mg/dL",resulted
+LAB-00157,JPR-SMS,PT-100037,"Urine routine",UR,2026-05-15,,"",collected
+LAB-00158,JPR-NAR,PT-100997,"Serum creatinine",CREA,2026-07-04,54,"mg/dL",resulted
+LAB-00159,JPR-NAR,PT-101456,"Urine routine",UR,2026-10-12,60,"",resulted
+LAB-00160,JPR-NAR,PT-100637,"Urine routine",UR,2026-04-19,54,"",resulted
+LAB-00161,JPR-FORT,PT-100848,"Total leukocyte count",TLC,2026-03-07,78,"/uL",resulted
+LAB-00162,JPR-FORT,PT-101405,"HbA1c",HBA1C,2026-01-08,7,"%",resulted
+LAB-00163,JPR-NAR,PT-100292,"Fasting glucose",FBS,2026-03-21,,"mg/dL",ordered
+LAB-00164,JPR-FORT,PT-101044,"Total leukocyte count",TLC,2026-07-04,158,"/uL",resulted
+LAB-00165,JPR-SMS,PT-100942,"Fasting glucose",FBS,2026-04-22,145,"mg/dL",resulted
+LAB-00166,JPR-SMS,PT-101067,"Serum creatinine",CREA,2026-04-08,142,"mg/dL",resulted
+LAB-00167,JPR-MET,PT-100130,"Serum sodium",NA,2026-07-16,11,"mmol/L",resulted
+LAB-00168,JPR-SMS,PT-100951,"Serum creatinine",CREA,2026-09-20,,"mg/dL",collected
+LAB-00169,JPR-NAR,PT-100744,"Fasting glucose",FBS,2026-04-18,,"mg/dL",collected
+LAB-00170,JPR-SMS,PT-100061,"Fasting glucose",FBS,2026-06-04,66,"mg/dL",resulted
+LAB-00171,JPR-FORT,PT-101416,"Serum sodium",NA,2026-07-16,56,"mmol/L",resulted
+LAB-00172,JPR-SMS,PT-100441,"Serum sodium",NA,2026-07-10,17,"mmol/L",resulted
+LAB-00173,JPR-MET,PT-100462,"Chest X-ray",CXR,2026-09-15,28,"",resulted
+LAB-00174,JPR-NAR,PT-100893,"Total leukocyte count",TLC,2026-01-05,150,"/uL",resulted
+LAB-00175,JPR-NAR,PT-101164,"Fasting glucose",FBS,2026-04-27,106,"mg/dL",resulted
+LAB-00176,JPR-SMS,PT-100633,"Fasting glucose",FBS,2026-02-17,79,"mg/dL",resulted
+LAB-00177,JPR-SMS,PT-100259,"Fasting glucose",FBS,2026-09-30,165,"mg/dL",resulted
+LAB-00178,JPR-MET,PT-100681,"Urine routine",UR,2026-03-06,122,"",resulted
+LAB-00179,JPR-FORT,PT-101366,"Total leukocyte count",TLC,2026-04-17,76,"/uL",resulted
+LAB-00180,JPR-MET,PT-100670,"Chest X-ray",CXR,2026-05-15,170,"",resulted
+LAB-00181,JPR-FORT,PT-100890,"Haemoglobin",Hb,2026-09-30,67,"g/dL",resulted
+LAB-00182,JPR-NAR,PT-101348,"Total leukocyte count",TLC,2026-04-03,118,"/uL",resulted
+LAB-00183,JPR-SMS,PT-101104,"Haemoglobin",Hb,2026-01-19,73,"g/dL",resulted
+LAB-00184,JPR-MET,PT-100538,"Total leukocyte count",TLC,2026-05-25,,"/uL",ordered
+LAB-00185,JPR-SMS,PT-100243,"Total leukocyte count",TLC,2026-04-19,166,"/uL",resulted
+LAB-00186,JPR-NAR,PT-101234,"Total leukocyte count",TLC,2026-05-30,95,"/uL",resulted
+LAB-00187,JPR-MET,PT-101333,"Haemoglobin",Hb,2026-05-17,146,"g/dL",resulted
+LAB-00188,JPR-FORT,PT-100528,"Haemoglobin",Hb,2026-09-03,59,"g/dL",resulted
+LAB-00189,JPR-SMS,PT-101036,"Total leukocyte count",TLC,2026-06-01,127,"/uL",resulted
+LAB-00190,JPR-NAR,PT-100144,"Serum sodium",NA,2026-05-14,109,"mmol/L",resulted
+LAB-00191,JPR-NAR,PT-100996,"Haemoglobin",Hb,2026-02-21,91,"g/dL",resulted
+LAB-00192,JPR-MET,PT-100432,"Total leukocyte count",TLC,2026-05-20,30,"/uL",resulted
+LAB-00193,JPR-NAR,PT-100682,"Total leukocyte count",TLC,2026-07-21,,"/uL",cancelled
+LAB-00194,JPR-SMS,PT-101058,"Haemoglobin",Hb,2026-01-26,,"g/dL",ordered
+LAB-00195,JPR-FORT,PT-101239,"Serum creatinine",CREA,2026-06-28,31,"mg/dL",resulted
+LAB-00196,JPR-FORT,PT-101489,"Fasting glucose",FBS,2026-01-26,,"mg/dL",ordered
+LAB-00197,JPR-FORT,PT-101467,"Total leukocyte count",TLC,2026-06-12,,"/uL",collected
+LAB-00198,JPR-MET,PT-100887,"Urine routine",UR,2026-08-07,22,"",resulted
+LAB-00199,JPR-SMS,PT-100952,"Fasting glucose",FBS,2026-08-09,153,"mg/dL",resulted
+LAB-00200,JPR-NAR,PT-100424,"Fasting glucose",FBS,2026-06-07,,"mg/dL",cancelled
+LAB-00201,JPR-FORT,PT-101368,"Serum creatinine",CREA,2026-02-15,109,"mg/dL",resulted
+LAB-00202,JPR-FORT,PT-100759,"Chest X-ray",CXR,2026-05-23,,"",cancelled
+LAB-00203,JPR-SMS,PT-100408,"Fasting glucose",FBS,2026-09-28,,"mg/dL",cancelled
+LAB-00204,JPR-SMS,PT-101507,"Serum creatinine",CREA,2026-07-02,,"mg/dL",ordered
+LAB-00205,JPR-SMS,PT-100605,"Haemoglobin",Hb,2026-08-16,179,"g/dL",resulted
+LAB-00206,JPR-NAR,PT-100779,"HbA1c",HBA1C,2026-10-14,112,"%",resulted
+LAB-00207,JPR-SMS,PT-100816,"Haemoglobin",Hb,2026-03-07,147,"g/dL",resulted
+LAB-00208,JPR-NAR,PT-100866,"Urine routine",UR,2026-04-02,155,"",resulted
+LAB-00209,JPR-NAR,PT-101040,"Total leukocyte count",TLC,2026-05-17,,"/uL",collected
+LAB-00210,JPR-FORT,PT-100593,"Urine routine",UR,2026-04-22,75,"",resulted
+LAB-00211,JPR-MET,PT-101280,"Chest X-ray",CXR,2026-10-06,61,"",resulted
+LAB-00212,JPR-FORT,PT-101022,"Urine routine",UR,2026-02-23,,"",cancelled
+LAB-00213,JPR-NAR,PT-101485,"Urine routine",UR,2026-07-23,15,"",resulted
+LAB-00214,JPR-FORT,PT-101201,"Haemoglobin",Hb,2026-09-15,,"g/dL",collected
+LAB-00215,JPR-FORT,PT-100834,"Haemoglobin",Hb,2026-05-30,111,"g/dL",resulted
+LAB-00216,JPR-NAR,PT-100736,"Haemoglobin",Hb,2026-02-08,169,"g/dL",resulted
+LAB-00217,JPR-FORT,PT-101101,"Fasting glucose",FBS,2026-05-20,140,"mg/dL",resulted
+LAB-00218,JPR-FORT,PT-100373,"Urine routine",UR,2026-02-13,172,"",resulted
+LAB-00219,JPR-MET,PT-100930,"Chest X-ray",CXR,2026-06-27,121,"",resulted
+LAB-00220,JPR-MET,PT-101340,"Chest X-ray",CXR,2026-05-29,47,"",resulted
+LAB-00221,JPR-FORT,PT-100232,"Total leukocyte count",TLC,2026-06-16,71,"/uL",resulted
+LAB-00222,JPR-FORT,PT-101515,"Serum sodium",NA,2026-06-13,175,"mmol/L",resulted
+LAB-00223,JPR-FORT,PT-100795,"HbA1c",HBA1C,2026-08-22,130,"%",resulted
+LAB-00224,JPR-SMS,PT-100593,"Haemoglobin",Hb,2026-05-06,136,"g/dL",resulted
+LAB-00225,JPR-MET,PT-100186,"Serum creatinine",CREA,2026-03-26,122,"mg/dL",resulted
+LAB-00226,JPR-FORT,PT-100893,"HbA1c",HBA1C,2026-03-16,96,"%",resulted
+LAB-00227,JPR-NAR,PT-100882,"Urine routine",UR,2026-02-04,,"",cancelled
+LAB-00228,JPR-SMS,PT-101487,"HbA1c",HBA1C,2026-06-20,49,"%",resulted
+LAB-00229,JPR-NAR,PT-100446,"Serum sodium",NA,2026-03-31,82,"mmol/L",resulted
+LAB-00230,JPR-SMS,PT-100496,"Fasting glucose",FBS,2026-10-08,28,"mg/dL",resulted
+LAB-00231,JPR-FORT,PT-100697,"Haemoglobin",Hb,2026-06-07,,"g/dL",collected
+LAB-00232,JPR-MET,PT-100956,"Total leukocyte count",TLC,2026-02-11,163,"/uL",resulted
+LAB-00233,JPR-MET,PT-100929,"Fasting glucose",FBS,2026-02-04,6,"mg/dL",resulted
+LAB-00234,JPR-FORT,PT-100789,"Serum creatinine",CREA,2026-07-21,61,"mg/dL",resulted
+LAB-00235,JPR-SMS,PT-100156,"Haemoglobin",Hb,2026-10-16,93,"g/dL",resulted
+LAB-00236,JPR-SMS,PT-101163,"Chest X-ray",CXR,2026-02-24,31,"",resulted
+LAB-00237,JPR-SMS,PT-100148,"Serum creatinine",CREA,2026-05-07,171,"mg/dL",resulted
+LAB-00238,JPR-NAR,PT-100809,"Chest X-ray",CXR,2026-02-23,151,"",resulted
+LAB-00239,JPR-SMS,PT-101416,"Serum creatinine",CREA,2026-05-07,154,"mg/dL",resulted
+LAB-00240,JPR-MET,PT-100683,"Haemoglobin",Hb,2026-03-13,,"g/dL",cancelled
+LAB-00241,JPR-MET,PT-101478,"Urine routine",UR,2026-03-17,24,"",resulted
+LAB-00242,JPR-NAR,PT-101015,"Serum creatinine",CREA,2026-04-17,,"mg/dL",cancelled
+LAB-00243,JPR-MET,PT-100508,"Serum sodium",NA,2026-08-17,,"mmol/L",cancelled
+LAB-00244,JPR-NAR,PT-100646,"Fasting glucose",FBS,2026-04-03,170,"mg/dL",resulted
+LAB-00245,JPR-FORT,PT-100069,"Chest X-ray",CXR,2026-10-17,,"",ordered
+LAB-00246,JPR-MET,PT-101290,"Haemoglobin",Hb,2026-02-10,102,"g/dL",resulted
+LAB-00247,JPR-SMS,PT-100797,"HbA1c",HBA1C,2026-03-31,,"%",ordered
+LAB-00248,JPR-MET,PT-101450,"Chest X-ray",CXR,2026-01-27,167,"",resulted
+LAB-00249,JPR-MET,PT-100740,"Total leukocyte count",TLC,2026-10-25,,"/uL",ordered
+LAB-00250,JPR-NAR,PT-100172,"Urine routine",UR,2026-07-18,92,"",resulted
+LAB-00251,JPR-MET,PT-100995,"Chest X-ray",CXR,2026-03-22,97,"",resulted
+LAB-00252,JPR-SMS,PT-100701,"Serum sodium",NA,2026-06-20,71,"mmol/L",resulted
+LAB-00253,JPR-MET,PT-101272,"Chest X-ray",CXR,2026-05-16,83,"",resulted
+LAB-00254,JPR-MET,PT-101428,"Serum sodium",NA,2026-08-20,86,"mmol/L",resulted
+LAB-00255,JPR-FORT,PT-100422,"Chest X-ray",CXR,2026-01-19,58,"",resulted
+LAB-00256,JPR-NAR,PT-100034,"Serum sodium",NA,2026-10-01,,"mmol/L",ordered
+LAB-00257,JPR-FORT,PT-100574,"Urine routine",UR,2026-06-16,74,"",resulted
+LAB-00258,JPR-SMS,PT-100516,"Serum creatinine",CREA,2026-08-23,30,"mg/dL",resulted
+LAB-00259,JPR-SMS,PT-100171,"Haemoglobin",Hb,2026-03-28,4,"g/dL",resulted
+LAB-00260,JPR-SMS,PT-100955,"Total leukocyte count",TLC,2026-07-15,177,"/uL",resulted
+LAB-00261,JPR-FORT,PT-101238,"Urine routine",UR,2026-09-01,110,"",resulted
+LAB-00262,JPR-SMS,PT-101264,"Fasting glucose",FBS,2026-07-02,,"mg/dL",ordered
+LAB-00263,JPR-MET,PT-100175,"Urine routine",UR,2026-07-13,124,"",resulted
+LAB-00264,JPR-SMS,PT-100413,"Serum creatinine",CREA,2026-03-08,10,"mg/dL",resulted
+LAB-00265,JPR-SMS,PT-100354,"Serum sodium",NA,2026-01-18,14,"mmol/L",resulted
+LAB-00266,JPR-FORT,PT-100235,"Total leukocyte count",TLC,2026-02-24,,"/uL",collected
+LAB-00267,JPR-FORT,PT-101325,"Serum creatinine",CREA,2026-07-02,154,"mg/dL",resulted
+LAB-00268,JPR-MET,PT-101327,"Serum sodium",NA,2026-08-18,156,"mmol/L",resulted
+LAB-00269,JPR-MET,PT-100640,"Serum creatinine",CREA,2026-04-07,69,"mg/dL",resulted
+LAB-00270,JPR-SMS,PT-101303,"Serum creatinine",CREA,2026-02-23,36,"mg/dL",resulted
+LAB-00271,JPR-MET,PT-100439,"Serum sodium",NA,2026-10-07,117,"mmol/L",resulted
+LAB-00272,JPR-SMS,PT-101477,"Fasting glucose",FBS,2026-03-23,,"mg/dL",ordered
+LAB-00273,JPR-MET,PT-100689,"HbA1c",HBA1C,2026-05-13,63,"%",resulted
+LAB-00274,JPR-FORT,PT-100979,"Serum creatinine",CREA,2026-01-18,32,"mg/dL",resulted
+LAB-00275,JPR-FORT,PT-100954,"Fasting glucose",FBS,2026-10-12,53,"mg/dL",resulted
+LAB-00276,JPR-MET,PT-100412,"Haemoglobin",Hb,2026-01-17,,"g/dL",cancelled
+LAB-00277,JPR-NAR,PT-100953,"Serum sodium",NA,2026-06-16,152,"mmol/L",resulted
+LAB-00278,JPR-SMS,PT-100888,"Serum creatinine",CREA,2026-05-13,161,"mg/dL",resulted
+LAB-00279,JPR-FORT,PT-101231,"Total leukocyte count",TLC,2026-07-31,159,"/uL",resulted
+LAB-00280,JPR-NAR,PT-101499,"Fasting glucose",FBS,2026-05-25,24,"mg/dL",resulted
+LAB-00281,JPR-NAR,PT-101041,"Serum creatinine",CREA,2026-04-24,10,"mg/dL",resulted
+LAB-00282,JPR-NAR,PT-100142,"Haemoglobin",Hb,2026-08-15,150,"g/dL",resulted
+LAB-00283,JPR-FORT,PT-100098,"Fasting glucose",FBS,2026-09-25,102,"mg/dL",resulted
+LAB-00284,JPR-FORT,PT-101481,"Serum sodium",NA,2026-01-21,153,"mmol/L",resulted
+LAB-00285,JPR-MET,PT-100554,"Total leukocyte count",TLC,2026-03-29,162,"/uL",resulted
+LAB-00286,JPR-FORT,PT-101155,"Urine routine",UR,2026-03-09,,"",collected
+LAB-00287,JPR-MET,PT-101353,"HbA1c",HBA1C,2026-06-25,,"%",cancelled
+LAB-00288,JPR-SMS,PT-101099,"Serum creatinine",CREA,2026-09-20,81,"mg/dL",resulted
+LAB-00289,JPR-NAR,PT-100390,"Fasting glucose",FBS,2026-03-16,,"mg/dL",cancelled
+LAB-00290,JPR-SMS,PT-101438,"HbA1c",HBA1C,2026-02-27,167,"%",resulted
+LAB-00291,JPR-FORT,PT-100439,"Urine routine",UR,2026-09-04,84,"",resulted
+LAB-00292,JPR-FORT,PT-100187,"Serum creatinine",CREA,2026-02-23,158,"mg/dL",resulted
+LAB-00293,JPR-MET,PT-101482,"Fasting glucose",FBS,2026-05-27,119,"mg/dL",resulted
+LAB-00294,JPR-SMS,PT-100367,"Serum sodium",NA,2026-07-23,24,"mmol/L",resulted
+LAB-00295,JPR-FORT,PT-100576,"Serum creatinine",CREA,2026-10-15,47,"mg/dL",resulted
+LAB-00296,JPR-MET,PT-100092,"Serum creatinine",CREA,2026-06-05,152,"mg/dL",resulted
+LAB-00297,JPR-NAR,PT-100953,"Serum sodium",NA,2026-01-19,83,"mmol/L",resulted
+LAB-00298,JPR-MET,PT-101083,"Chest X-ray",CXR,2026-04-12,128,"",resulted
+LAB-00299,JPR-NAR,PT-100388,"Urine routine",UR,2026-09-17,122,"",resulted
+LAB-00300,JPR-FORT,PT-101247,"Serum sodium",NA,2026-01-02,165,"mmol/L",resulted
+LAB-00301,JPR-MET,PT-100958,"Serum creatinine",CREA,2026-02-26,163,"mg/dL",resulted
+LAB-00302,JPR-SMS,PT-101439,"Urine routine",UR,2026-07-25,114,"",resulted
+LAB-00303,JPR-FORT,PT-100312,"Urine routine",UR,2026-10-03,,"",collected
+LAB-00304,JPR-SMS,PT-100446,"Chest X-ray",CXR,2026-10-17,84,"",resulted
+LAB-00305,JPR-MET,PT-101223,"HbA1c",HBA1C,2026-04-29,,"%",collected
+LAB-00306,JPR-NAR,PT-101426,"Haemoglobin",Hb,2026-07-06,27,"g/dL",resulted
+LAB-00307,JPR-MET,PT-100330,"HbA1c",HBA1C,2026-09-03,54,"%",resulted
+LAB-00308,JPR-NAR,PT-100043,"Chest X-ray",CXR,2026-09-23,72,"",resulted
+LAB-00309,JPR-SMS,PT-101205,"Serum sodium",NA,2026-05-26,,"mmol/L",collected
+LAB-00310,JPR-NAR,PT-101171,"Fasting glucose",FBS,2026-04-06,,"mg/dL",cancelled
+LAB-00311,JPR-SMS,PT-101229,"Fasting glucose",FBS,2026-03-03,,"mg/dL",cancelled
+LAB-00312,JPR-MET,PT-100084,"Chest X-ray",CXR,2026-07-25,133,"",resulted
+LAB-00313,JPR-MET,PT-101216,"Urine routine",UR,2026-04-07,160,"",resulted
+LAB-00314,JPR-SMS,PT-100174,"Serum creatinine",CREA,2026-04-21,153,"mg/dL",resulted
+LAB-00315,JPR-NAR,PT-100240,"Serum creatinine",CREA,2026-01-30,35,"mg/dL",resulted
+LAB-00316,JPR-FORT,PT-100830,"HbA1c",HBA1C,2026-03-26,179,"%",resulted
+LAB-00317,JPR-NAR,PT-100961,"Chest X-ray",CXR,2026-05-09,176,"",resulted
+LAB-00318,JPR-FORT,PT-100826,"Total leukocyte count",TLC,2026-03-24,70,"/uL",resulted
+LAB-00319,JPR-SMS,PT-100871,"HbA1c",HBA1C,2026-02-13,34,"%",resulted
+LAB-00320,JPR-SMS,PT-100417,"Fasting glucose",FBS,2026-05-30,63,"mg/dL",resulted
+LAB-00321,JPR-MET,PT-100086,"Total leukocyte count",TLC,2026-04-22,108,"/uL",resulted
+LAB-00322,JPR-NAR,PT-100977,"Serum sodium",NA,2026-03-16,13,"mmol/L",resulted
+LAB-00323,JPR-FORT,PT-100351,"Urine routine",UR,2026-07-22,89,"",resulted
+LAB-00324,JPR-SMS,PT-101387,"HbA1c",HBA1C,2026-03-13,112,"%",resulted
+LAB-00325,JPR-NAR,PT-100723,"Chest X-ray",CXR,2026-10-26,119,"",resulted
+LAB-00326,JPR-NAR,PT-101459,"Haemoglobin",Hb,2026-04-04,105,"g/dL",resulted
+LAB-00327,JPR-FORT,PT-100421,"Total leukocyte count",TLC,2026-06-24,124,"/uL",resulted
+LAB-00328,JPR-SMS,PT-100147,"Total leukocyte count",TLC,2026-01-09,26,"/uL",resulted
+LAB-00329,JPR-MET,PT-101365,"Serum sodium",NA,2026-05-12,30,"mmol/L",resulted
+LAB-00330,JPR-MET,PT-101129,"Serum sodium",NA,2026-08-04,,"mmol/L",collected
+LAB-00331,JPR-NAR,PT-100297,"Serum sodium",NA,2026-10-28,,"mmol/L",ordered
+LAB-00332,JPR-FORT,PT-100552,"Haemoglobin",Hb,2026-09-03,,"g/dL",ordered
+LAB-00333,JPR-MET,PT-100364,"HbA1c",HBA1C,2026-10-27,,"%",collected
+LAB-00334,JPR-MET,PT-100773,"Serum creatinine",CREA,2026-07-24,,"mg/dL",ordered
+LAB-00335,JPR-FORT,PT-100796,"Haemoglobin",Hb,2026-09-02,102,"g/dL",resulted
+LAB-00336,JPR-MET,PT-101271,"Urine routine",UR,2026-02-08,18,"",resulted
+LAB-00337,JPR-NAR,PT-101433,"Serum creatinine",CREA,2026-08-14,118,"mg/dL",resulted
+LAB-00338,JPR-MET,PT-100625,"Total leukocyte count",TLC,2026-05-10,101,"/uL",resulted
+LAB-00339,JPR-SMS,PT-101302,"Total leukocyte count",TLC,2026-10-15,129,"/uL",resulted
+LAB-00340,JPR-SMS,PT-101170,"Haemoglobin",Hb,2026-06-04,38,"g/dL",resulted
+LAB-00341,JPR-NAR,PT-101324,"Serum creatinine",CREA,2026-01-13,166,"mg/dL",resulted
+LAB-00342,JPR-FORT,PT-100650,"Urine routine",UR,2026-06-19,107,"",resulted
+LAB-00343,JPR-NAR,PT-100265,"Fasting glucose",FBS,2026-06-12,,"mg/dL",cancelled
+LAB-00344,JPR-FORT,PT-101361,"Chest X-ray",CXR,2026-04-05,,"",ordered
+LAB-00345,JPR-NAR,PT-100859,"Chest X-ray",CXR,2026-08-21,47,"",resulted
+LAB-00346,JPR-NAR,PT-100540,"Chest X-ray",CXR,2026-08-02,130,"",resulted
+LAB-00347,JPR-NAR,PT-100750,"Chest X-ray",CXR,2026-08-27,14,"",resulted
+LAB-00348,JPR-SMS,PT-100855,"HbA1c",HBA1C,2026-08-08,81,"%",resulted
+LAB-00349,JPR-FORT,PT-101182,"Serum creatinine",CREA,2026-05-19,35,"mg/dL",resulted
+LAB-00350,JPR-SMS,PT-100952,"Haemoglobin",Hb,2026-06-07,35,"g/dL",resulted
+LAB-00351,JPR-MET,PT-101213,"Urine routine",UR,2026-08-28,66,"",resulted
+LAB-00352,JPR-MET,PT-101095,"Serum sodium",NA,2026-03-06,100,"mmol/L",resulted
+LAB-00353,JPR-MET,PT-100494,"Serum creatinine",CREA,2026-02-23,112,"mg/dL",resulted
+LAB-00354,JPR-NAR,PT-101406,"HbA1c",HBA1C,2026-10-19,,"%",ordered
+LAB-00355,JPR-SMS,PT-100477,"Chest X-ray",CXR,2026-01-18,105,"",resulted
+LAB-00356,JPR-SMS,PT-101039,"Haemoglobin",Hb,2026-02-24,,"g/dL",ordered
+LAB-00357,JPR-FORT,PT-100415,"Total leukocyte count",TLC,2026-03-14,166,"/uL",resulted
+LAB-00358,JPR-MET,PT-100953,"Haemoglobin",Hb,2026-10-07,140,"g/dL",resulted
+LAB-00359,JPR-FORT,PT-100136,"Fasting glucose",FBS,2026-09-22,158,"mg/dL",resulted
+LAB-00360,JPR-NAR,PT-101112,"Total leukocyte count",TLC,2026-01-01,3,"/uL",resulted
+LAB-00361,JPR-NAR,PT-100613,"Total leukocyte count",TLC,2026-08-17,71,"/uL",resulted
+LAB-00362,JPR-NAR,PT-100073,"Serum creatinine",CREA,2026-02-11,145,"mg/dL",resulted
+LAB-00363,JPR-MET,PT-101337,"Fasting glucose",FBS,2026-06-12,33,"mg/dL",resulted
+LAB-00364,JPR-MET,PT-100777,"Urine routine",UR,2026-04-15,53,"",resulted
+LAB-00365,JPR-NAR,PT-100022,"Urine routine",UR,2026-10-19,4,"",resulted
+LAB-00366,JPR-SMS,PT-100770,"Serum sodium",NA,2026-04-30,136,"mmol/L",resulted
+LAB-00367,JPR-FORT,PT-100508,"Fasting glucose",FBS,2026-03-31,151,"mg/dL",resulted
+LAB-00368,JPR-SMS,PT-100387,"Total leukocyte count",TLC,2026-09-06,71,"/uL",resulted
+LAB-00369,JPR-FORT,PT-100055,"Total leukocyte count",TLC,2026-04-26,101,"/uL",resulted
+LAB-00370,JPR-SMS,PT-100280,"Serum creatinine",CREA,2026-02-07,95,"mg/dL",resulted
+LAB-00371,JPR-FORT,PT-100819,"Total leukocyte count",TLC,2026-03-02,118,"/uL",resulted
+LAB-00372,JPR-FORT,PT-101231,"Chest X-ray",CXR,2026-10-03,131,"",resulted
+LAB-00373,JPR-SMS,PT-100665,"Serum creatinine",CREA,2026-08-20,171,"mg/dL",resulted
+LAB-00374,JPR-SMS,PT-101265,"Fasting glucose",FBS,2026-03-08,,"mg/dL",ordered
+LAB-00375,JPR-MET,PT-101244,"Chest X-ray",CXR,2026-08-02,27,"",resulted
+LAB-00376,JPR-FORT,PT-100718,"Haemoglobin",Hb,2026-03-18,,"g/dL",ordered
+LAB-00377,JPR-MET,PT-101469,"Serum sodium",NA,2026-10-04,174,"mmol/L",resulted
+LAB-00378,JPR-SMS,PT-100369,"Fasting glucose",FBS,2026-03-12,,"mg/dL",cancelled
+LAB-00379,JPR-FORT,PT-101342,"HbA1c",HBA1C,2026-02-06,,"%",ordered
+LAB-00380,JPR-MET,PT-100997,"Serum creatinine",CREA,2026-03-01,14,"mg/dL",resulted
+LAB-00381,JPR-SMS,PT-100284,"Serum sodium",NA,2026-03-14,,"mmol/L",ordered
+LAB-00382,JPR-SMS,PT-100900,"Haemoglobin",Hb,2026-09-08,,"g/dL",cancelled
+LAB-00383,JPR-MET,PT-100425,"Serum creatinine",CREA,2026-09-12,130,"mg/dL",resulted
+LAB-00384,JPR-FORT,PT-100523,"Serum sodium",NA,2026-08-05,,"mmol/L",ordered
+LAB-00385,JPR-SMS,PT-101303,"Total leukocyte count",TLC,2026-02-22,131,"/uL",resulted
+LAB-00386,JPR-SMS,PT-100808,"Haemoglobin",Hb,2026-07-04,106,"g/dL",resulted
+LAB-00387,JPR-NAR,PT-100243,"Serum creatinine",CREA,2026-05-11,84,"mg/dL",resulted
+LAB-00388,JPR-SMS,PT-100582,"Chest X-ray",CXR,2026-06-28,111,"",resulted
+LAB-00389,JPR-NAR,PT-100864,"Serum sodium",NA,2026-04-29,3,"mmol/L",resulted
+LAB-00390,JPR-MET,PT-100218,"Fasting glucose",FBS,2026-03-03,18,"mg/dL",resulted
+LAB-00391,JPR-NAR,PT-100532,"Serum creatinine",CREA,2026-05-23,173,"mg/dL",resulted
+LAB-00392,JPR-MET,PT-100853,"Urine routine",UR,2026-10-10,141,"",resulted
+LAB-00393,JPR-MET,PT-101149,"HbA1c",HBA1C,2026-09-11,111,"%",resulted
+LAB-00394,JPR-SMS,PT-101046,"Fasting glucose",FBS,2026-07-26,,"mg/dL",collected
+LAB-00395,JPR-NAR,PT-101123,"Total leukocyte count",TLC,2026-03-19,,"/uL",cancelled
+LAB-00396,JPR-SMS,PT-100789,"Fasting glucose",FBS,2026-01-03,61,"mg/dL",resulted
+LAB-00397,JPR-FORT,PT-101481,"Haemoglobin",Hb,2026-06-25,17,"g/dL",resulted
+LAB-00398,JPR-SMS,PT-100225,"Serum creatinine",CREA,2026-04-07,106,"mg/dL",resulted
+LAB-00399,JPR-FORT,PT-101494,"Haemoglobin",Hb,2026-04-01,33,"g/dL",resulted
+LAB-00400,JPR-NAR,PT-100713,"Fasting glucose",FBS,2026-04-21,180,"mg/dL",resulted
+LAB-00401,JPR-FORT,PT-100781,"Urine routine",UR,2026-05-11,106,"",resulted
+LAB-00402,JPR-NAR,PT-100949,"Serum sodium",NA,2026-06-29,70,"mmol/L",resulted
+LAB-00403,JPR-FORT,PT-100787,"Chest X-ray",CXR,2026-07-11,87,"",resulted
+LAB-00404,JPR-MET,PT-101093,"Haemoglobin",Hb,2026-04-01,138,"g/dL",resulted
+LAB-00405,JPR-MET,PT-100490,"Total leukocyte count",TLC,2026-05-17,144,"/uL",resulted
+LAB-00406,JPR-FORT,PT-100762,"Haemoglobin",Hb,2026-06-28,113,"g/dL",resulted
+LAB-00407,JPR-FORT,PT-101354,"Serum creatinine",CREA,2026-10-12,179,"mg/dL",resulted
+LAB-00408,JPR-FORT,PT-100023,"Serum creatinine",CREA,2026-07-07,167,"mg/dL",resulted
+LAB-00409,JPR-FORT,PT-100352,"HbA1c",HBA1C,2026-03-04,27,"%",resulted
+LAB-00410,JPR-FORT,PT-100697,"Urine routine",UR,2026-07-12,,"",cancelled
+LAB-00411,JPR-FORT,PT-100585,"Serum sodium",NA,2026-05-26,,"mmol/L",collected
+LAB-00412,JPR-MET,PT-101073,"Total leukocyte count",TLC,2026-08-04,,"/uL",cancelled
+LAB-00413,JPR-SMS,PT-100769,"Urine routine",UR,2026-09-19,45,"",resulted
+LAB-00414,JPR-FORT,PT-100418,"Chest X-ray",CXR,2026-04-03,151,"",resulted
+LAB-00415,JPR-SMS,PT-101507,"Fasting glucose",FBS,2026-09-12,151,"mg/dL",resulted
+LAB-00416,JPR-FORT,PT-101046,"Haemoglobin",Hb,2026-10-10,46,"g/dL",resulted
+LAB-00417,JPR-SMS,PT-101058,"Haemoglobin",Hb,2026-02-06,145,"g/dL",resulted
+LAB-00418,JPR-MET,PT-100692,"Serum sodium",NA,2026-07-29,121,"mmol/L",resulted
+LAB-00419,JPR-NAR,PT-100983,"Chest X-ray",CXR,2026-06-04,,"",ordered
+LAB-00420,JPR-MET,PT-100313,"Haemoglobin",Hb,2026-04-08,,"g/dL",collected
+LAB-00421,JPR-FORT,PT-101237,"Chest X-ray",CXR,2026-09-18,132,"",resulted
+LAB-00422,JPR-SMS,PT-101005,"Serum sodium",NA,2026-01-17,29,"mmol/L",resulted
+LAB-00423,JPR-MET,PT-101272,"Serum creatinine",CREA,2026-03-09,62,"mg/dL",resulted
+LAB-00424,JPR-FORT,PT-100666,"Serum creatinine",CREA,2026-06-25,12,"mg/dL",resulted
+LAB-00425,JPR-FORT,PT-101232,"Fasting glucose",FBS,2026-08-17,101,"mg/dL",resulted
+LAB-00426,JPR-SMS,PT-101463,"Serum creatinine",CREA,2026-07-26,,"mg/dL",cancelled
+LAB-00427,JPR-NAR,PT-100703,"Chest X-ray",CXR,2026-02-22,,"",collected
+LAB-00428,JPR-SMS,PT-101361,"Total leukocyte count",TLC,2026-05-17,37,"/uL",resulted
+LAB-00429,JPR-MET,PT-100569,"Fasting glucose",FBS,2026-06-19,47,"mg/dL",resulted
+LAB-00430,JPR-FORT,PT-101364,"Urine routine",UR,2026-02-25,139,"",resulted
+LAB-00431,JPR-NAR,PT-100085,"Total leukocyte count",TLC,2026-10-28,141,"/uL",resulted
+LAB-00432,JPR-NAR,PT-100971,"Fasting glucose",FBS,2026-04-05,149,"mg/dL",resulted
+LAB-00433,JPR-MET,PT-100059,"Urine routine",UR,2026-03-25,48,"",resulted
+LAB-00434,JPR-SMS,PT-100522,"Fasting glucose",FBS,2026-10-24,135,"mg/dL",resulted
+LAB-00435,JPR-SMS,PT-100440,"Chest X-ray",CXR,2026-06-29,143,"",resulted
+LAB-00436,JPR-MET,PT-100482,"Total leukocyte count",TLC,2026-02-13,68,"/uL",resulted
+LAB-00437,JPR-FORT,PT-100915,"Haemoglobin",Hb,2026-02-08,164,"g/dL",resulted
+LAB-00438,JPR-MET,PT-100320,"HbA1c",HBA1C,2026-03-07,14,"%",resulted
+LAB-00439,JPR-MET,PT-101212,"Chest X-ray",CXR,2026-08-12,99,"",resulted
+LAB-00440,JPR-SMS,PT-100002,"Fasting glucose",FBS,2026-08-29,58,"mg/dL",resulted
+LAB-00441,JPR-NAR,PT-101295,"HbA1c",HBA1C,2026-04-10,20,"%",resulted
+LAB-00442,JPR-MET,PT-101414,"Fasting glucose",FBS,2026-09-22,152,"mg/dL",resulted
+LAB-00443,JPR-NAR,PT-100478,"HbA1c",HBA1C,2026-06-07,,"%",cancelled
+LAB-00444,JPR-SMS,PT-101286,"Chest X-ray",CXR,2026-06-19,97,"",resulted
+LAB-00445,JPR-MET,PT-100943,"Serum creatinine",CREA,2026-07-29,61,"mg/dL",resulted
+LAB-00446,JPR-SMS,PT-101161,"Fasting glucose",FBS,2026-04-03,103,"mg/dL",resulted
+LAB-00447,JPR-MET,PT-100216,"Total leukocyte count",TLC,2026-06-30,98,"/uL",resulted
+LAB-00448,JPR-FORT,PT-100816,"Fasting glucose",FBS,2026-01-20,97,"mg/dL",resulted
+LAB-00449,JPR-MET,PT-100210,"Serum creatinine",CREA,2026-01-07,,"mg/dL",ordered
+LAB-00450,JPR-SMS,PT-101427,"Chest X-ray",CXR,2026-10-25,,"",collected
+LAB-00451,JPR-FORT,PT-101361,"Serum sodium",NA,2026-03-17,145,"mmol/L",resulted
+LAB-00452,JPR-MET,PT-100910,"Serum creatinine",CREA,2026-05-19,74,"mg/dL",resulted
+LAB-00453,JPR-NAR,PT-101077,"Haemoglobin",Hb,2026-04-06,28,"g/dL",resulted
+LAB-00454,JPR-SMS,PT-100868,"Urine routine",UR,2026-07-17,,"",cancelled
+LAB-00455,JPR-MET,PT-100879,"Serum creatinine",CREA,2026-03-17,115,"mg/dL",resulted
+LAB-00456,JPR-MET,PT-100707,"HbA1c",HBA1C,2026-10-11,120,"%",resulted
+LAB-00457,JPR-SMS,PT-101027,"Chest X-ray",CXR,2026-09-07,35,"",resulted
+LAB-00458,JPR-NAR,PT-100643,"Serum sodium",NA,2026-08-04,112,"mmol/L",resulted
+LAB-00459,JPR-SMS,PT-101505,"HbA1c",HBA1C,2026-06-18,45,"%",resulted
+LAB-00460,JPR-SMS,PT-100597,"Chest X-ray",CXR,2026-06-26,155,"",resulted
+LAB-00461,JPR-FORT,PT-101120,"Chest X-ray",CXR,2026-09-24,72,"",resulted
+LAB-00462,JPR-FORT,PT-100694,"Total leukocyte count",TLC,2026-10-20,,"/uL",collected
+LAB-00463,JPR-FORT,PT-100616,"Fasting glucose",FBS,2026-09-05,,"mg/dL",ordered
+LAB-00464,JPR-SMS,PT-100267,"Chest X-ray",CXR,2026-05-25,4,"",resulted
+LAB-00465,JPR-FORT,PT-100818,"Chest X-ray",CXR,2026-06-15,68,"",resulted
+LAB-00466,JPR-SMS,PT-100319,"Fasting glucose",FBS,2026-07-24,,"mg/dL",collected
+LAB-00467,JPR-MET,PT-100922,"Urine routine",UR,2026-07-20,,"",collected
+LAB-00468,JPR-NAR,PT-101027,"Total leukocyte count",TLC,2026-02-17,154,"/uL",resulted
+LAB-00469,JPR-SMS,PT-100916,"HbA1c",HBA1C,2026-01-26,174,"%",resulted
+LAB-00470,JPR-MET,PT-101497,"Fasting glucose",FBS,2026-09-27,12,"mg/dL",resulted
+LAB-00471,JPR-NAR,PT-100292,"Serum creatinine",CREA,2026-09-10,13,"mg/dL",resulted
+LAB-00472,JPR-FORT,PT-100237,"Total leukocyte count",TLC,2026-05-01,165,"/uL",resulted
+LAB-00473,JPR-SMS,PT-100842,"Serum creatinine",CREA,2026-03-13,82,"mg/dL",resulted
+LAB-00474,JPR-SMS,PT-101268,"Haemoglobin",Hb,2026-02-16,137,"g/dL",resulted
+LAB-00475,JPR-NAR,PT-100354,"Serum sodium",NA,2026-02-12,70,"mmol/L",resulted
+LAB-00476,JPR-FORT,PT-100692,"Chest X-ray",CXR,2026-03-23,67,"",resulted
+LAB-00477,JPR-FORT,PT-101019,"Total leukocyte count",TLC,2026-04-08,11,"/uL",resulted
+LAB-00478,JPR-SMS,PT-100589,"Fasting glucose",FBS,2026-05-13,165,"mg/dL",resulted
+LAB-00479,JPR-SMS,PT-100315,"Serum creatinine",CREA,2026-02-18,164,"mg/dL",resulted
+LAB-00480,JPR-FORT,PT-101416,"HbA1c",HBA1C,2026-06-11,130,"%",resulted
+LAB-00481,JPR-SMS,PT-101117,"Chest X-ray",CXR,2026-02-10,142,"",resulted
+LAB-00482,JPR-SMS,PT-100712,"Fasting glucose",FBS,2026-05-30,111,"mg/dL",resulted
+LAB-00483,JPR-MET,PT-100421,"HbA1c",HBA1C,2026-09-17,175,"%",resulted
+LAB-00484,JPR-NAR,PT-100381,"Total leukocyte count",TLC,2026-04-14,,"/uL",ordered
+LAB-00485,JPR-MET,PT-100314,"Urine routine",UR,2026-07-20,105,"",resulted
+LAB-00486,JPR-SMS,PT-100795,"Fasting glucose",FBS,2026-05-08,,"mg/dL",ordered
+LAB-00487,JPR-MET,PT-101304,"Total leukocyte count",TLC,2026-10-04,135,"/uL",resulted
+LAB-00488,JPR-NAR,PT-101508,"HbA1c",HBA1C,2026-03-19,125,"%",resulted
+LAB-00489,JPR-FORT,PT-101082,"Urine routine",UR,2026-07-06,129,"",resulted
+LAB-00490,JPR-NAR,PT-101335,"Serum sodium",NA,2026-06-30,67,"mmol/L",resulted
+LAB-00491,JPR-FORT,PT-100764,"HbA1c",HBA1C,2026-10-11,112,"%",resulted
+LAB-00492,JPR-MET,PT-100033,"Chest X-ray",CXR,2026-06-19,,"",collected
+LAB-00493,JPR-SMS,PT-101251,"Serum creatinine",CREA,2026-08-23,114,"mg/dL",resulted
+LAB-00494,JPR-FORT,PT-101206,"Serum sodium",NA,2026-10-04,43,"mmol/L",resulted
+LAB-00495,JPR-NAR,PT-100177,"Serum sodium",NA,2026-05-16,,"mmol/L",cancelled
+LAB-00496,JPR-NAR,PT-101137,"Chest X-ray",CXR,2026-10-05,,"",cancelled
+LAB-00497,JPR-FORT,PT-100269,"Serum creatinine",CREA,2026-02-09,171,"mg/dL",resulted
+LAB-00498,JPR-NAR,PT-100518,"Serum sodium",NA,2026-04-07,,"mmol/L",collected
+LAB-00499,JPR-SMS,PT-100705,"Haemoglobin",Hb,2026-07-24,103,"g/dL",resulted
+LAB-00500,JPR-SMS,PT-100166,"Urine routine",UR,2026-04-05,138,"",resulted
+LAB-00501,JPR-NAR,PT-101371,"Serum sodium",NA,2026-09-17,163,"mmol/L",resulted
+LAB-00502,JPR-MET,PT-100135,"Serum sodium",NA,2026-07-22,,"mmol/L",collected
+LAB-00503,JPR-MET,PT-101501,"Fasting glucose",FBS,2026-03-11,13,"mg/dL",resulted
+LAB-00504,JPR-FORT,PT-100691,"Total leukocyte count",TLC,2026-04-02,81,"/uL",resulted
+LAB-00505,JPR-MET,PT-100493,"HbA1c",HBA1C,2026-02-05,6,"%",resulted
+LAB-00506,JPR-FORT,PT-100913,"Urine routine",UR,2026-10-04,,"",ordered
+LAB-00507,JPR-MET,PT-101448,"Fasting glucose",FBS,2026-05-25,70,"mg/dL",resulted
+LAB-00508,JPR-MET,PT-100255,"Chest X-ray",CXR,2026-07-06,,"",ordered
+LAB-00509,JPR-FORT,PT-100067,"Urine routine",UR,2026-06-30,28,"",resulted
+LAB-00510,JPR-NAR,PT-101120,"Haemoglobin",Hb,2026-06-20,171,"g/dL",resulted
+LAB-00511,JPR-FORT,PT-101375,"Haemoglobin",Hb,2026-09-09,50,"g/dL",resulted
+LAB-00512,JPR-MET,PT-100235,"Urine routine",UR,2026-01-10,150,"",resulted
+LAB-00513,JPR-NAR,PT-100417,"Serum creatinine",CREA,2026-10-19,,"mg/dL",cancelled
+LAB-00514,JPR-NAR,PT-101202,"Urine routine",UR,2026-05-28,122,"",resulted
+LAB-00515,JPR-MET,PT-100641,"HbA1c",HBA1C,2026-08-30,69,"%",resulted
+LAB-00516,JPR-MET,PT-100167,"HbA1c",HBA1C,2026-06-22,77,"%",resulted
+LAB-00517,JPR-NAR,PT-100778,"Total leukocyte count",TLC,2026-01-21,,"/uL",collected
+LAB-00518,JPR-MET,PT-100630,"Total leukocyte count",TLC,2026-01-10,167,"/uL",resulted
+LAB-00519,JPR-FORT,PT-100305,"Fasting glucose",FBS,2026-09-12,148,"mg/dL",resulted
+LAB-00520,JPR-NAR,PT-100937,"Serum sodium",NA,2026-01-10,85,"mmol/L",resulted
+LAB-00521,JPR-FORT,PT-100799,"Serum creatinine",CREA,2026-10-14,,"mg/dL",collected
+LAB-00522,JPR-FORT,PT-100573,"Chest X-ray",CXR,2026-05-07,39,"",resulted
+LAB-00523,JPR-NAR,PT-100669,"Urine routine",UR,2026-01-28,9,"",resulted
+LAB-00524,JPR-MET,PT-100060,"Chest X-ray",CXR,2026-08-26,,"",cancelled
+LAB-00525,JPR-SMS,PT-100984,"Chest X-ray",CXR,2026-08-03,61,"",resulted
+LAB-00526,JPR-NAR,PT-100169,"Serum creatinine",CREA,2026-06-01,117,"mg/dL",resulted
+LAB-00527,JPR-SMS,PT-100817,"Total leukocyte count",TLC,2026-08-31,174,"/uL",resulted
+LAB-00528,JPR-MET,PT-100398,"Haemoglobin",Hb,2026-10-16,56,"g/dL",resulted
+LAB-00529,JPR-SMS,PT-100579,"Serum creatinine",CREA,2026-02-16,50,"mg/dL",resulted
+LAB-00530,JPR-SMS,PT-100152,"Urine routine",UR,2026-08-28,,"",collected
+LAB-00531,JPR-NAR,PT-100170,"Serum creatinine",CREA,2026-08-07,91,"mg/dL",resulted
+LAB-00532,JPR-SMS,PT-100291,"Serum creatinine",CREA,2026-09-07,162,"mg/dL",resulted
+LAB-00533,JPR-NAR,PT-100493,"Serum creatinine",CREA,2026-03-16,165,"mg/dL",resulted
+LAB-00534,JPR-MET,PT-100080,"Chest X-ray",CXR,2026-09-11,168,"",resulted
+LAB-00535,JPR-MET,PT-100499,"Haemoglobin",Hb,2026-02-17,,"g/dL",ordered
+LAB-00536,JPR-NAR,PT-100182,"HbA1c",HBA1C,2026-07-11,,"%",cancelled
+LAB-00537,JPR-FORT,PT-100603,"Haemoglobin",Hb,2026-05-06,166,"g/dL",resulted
+LAB-00538,JPR-SMS,PT-101384,"Chest X-ray",CXR,2026-09-20,95,"",resulted
+LAB-00539,JPR-MET,PT-100807,"Urine routine",UR,2026-10-11,166,"",resulted
+LAB-00540,JPR-SMS,PT-101320,"Serum sodium",NA,2026-07-11,,"mmol/L",collected
+LAB-00541,JPR-MET,PT-100586,"Chest X-ray",CXR,2026-07-07,111,"",resulted
+LAB-00542,JPR-SMS,PT-100977,"Haemoglobin",Hb,2026-08-27,177,"g/dL",resulted
+LAB-00543,JPR-NAR,PT-100296,"HbA1c",HBA1C,2026-02-22,37,"%",resulted
+LAB-00544,JPR-SMS,PT-101144,"Serum creatinine",CREA,2026-05-30,27,"mg/dL",resulted
+LAB-00545,JPR-NAR,PT-101230,"Chest X-ray",CXR,2026-03-25,146,"",resulted
+LAB-00546,JPR-FORT,PT-101359,"Serum creatinine",CREA,2026-05-26,123,"mg/dL",resulted
+LAB-00547,JPR-NAR,PT-100304,"HbA1c",HBA1C,2026-08-24,178,"%",resulted
+LAB-00548,JPR-NAR,PT-100564,"Serum sodium",NA,2026-10-25,23,"mmol/L",resulted
+LAB-00549,JPR-MET,PT-100112,"HbA1c",HBA1C,2026-10-12,172,"%",resulted
+LAB-00550,JPR-SMS,PT-100598,"Chest X-ray",CXR,2026-05-01,58,"",resulted
+LAB-00551,JPR-MET,PT-100599,"Serum creatinine",CREA,2026-09-27,44,"mg/dL",resulted
+LAB-00552,JPR-MET,PT-100290,"Total leukocyte count",TLC,2026-01-05,104,"/uL",resulted
+LAB-00553,JPR-NAR,PT-101486,"Serum creatinine",CREA,2026-09-26,108,"mg/dL",resulted
+LAB-00554,JPR-SMS,PT-100343,"Urine routine",UR,2026-05-30,80,"",resulted
+LAB-00555,JPR-MET,PT-100743,"Serum sodium",NA,2026-01-09,56,"mmol/L",resulted
+LAB-00556,JPR-NAR,PT-101451,"Chest X-ray",CXR,2026-10-05,64,"",resulted
+LAB-00557,JPR-SMS,PT-100723,"Serum creatinine",CREA,2026-05-06,25,"mg/dL",resulted
+LAB-00558,JPR-FORT,PT-101334,"Chest X-ray",CXR,2026-05-19,126,"",resulted
+LAB-00559,JPR-SMS,PT-100390,"Serum creatinine",CREA,2026-01-23,120,"mg/dL",resulted
+LAB-00560,JPR-MET,PT-101349,"HbA1c",HBA1C,2026-02-13,172,"%",resulted
+LAB-00561,JPR-NAR,PT-101246,"Urine routine",UR,2026-10-28,155,"",resulted
+LAB-00562,JPR-MET,PT-100161,"Fasting glucose",FBS,2026-03-16,168,"mg/dL",resulted
+LAB-00563,JPR-FORT,PT-100077,"Chest X-ray",CXR,2026-02-10,154,"",resulted
+LAB-00564,JPR-MET,PT-101129,"Serum sodium",NA,2026-02-20,60,"mmol/L",resulted
+LAB-00565,JPR-MET,PT-101449,"Serum sodium",NA,2026-03-26,78,"mmol/L",resulted
+LAB-00566,JPR-NAR,PT-100985,"Chest X-ray",CXR,2026-10-14,18,"",resulted
+LAB-00567,JPR-NAR,PT-100956,"HbA1c",HBA1C,2026-02-03,145,"%",resulted
+LAB-00568,JPR-NAR,PT-100960,"HbA1c",HBA1C,2026-08-20,69,"%",resulted
+LAB-00569,JPR-NAR,PT-100384,"Serum creatinine",CREA,2026-09-08,,"mg/dL",collected
+LAB-00570,JPR-NAR,PT-101047,"Serum creatinine",CREA,2026-10-19,169,"mg/dL",resulted
+LAB-00571,JPR-FORT,PT-100428,"Total leukocyte count",TLC,2026-02-21,77,"/uL",resulted
+LAB-00572,JPR-SMS,PT-101038,"Fasting glucose",FBS,2026-07-02,71,"mg/dL",resulted
+LAB-00573,JPR-FORT,PT-100885,"HbA1c",HBA1C,2026-08-14,128,"%",resulted
+LAB-00574,JPR-MET,PT-100290,"Fasting glucose",FBS,2026-05-24,108,"mg/dL",resulted
+LAB-00575,JPR-NAR,PT-100460,"Total leukocyte count",TLC,2026-10-23,94,"/uL",resulted
+LAB-00576,JPR-MET,PT-100770,"Chest X-ray",CXR,2026-02-03,33,"",resulted
+LAB-00577,JPR-FORT,PT-100958,"Serum sodium",NA,2026-01-20,24,"mmol/L",resulted
+LAB-00578,JPR-MET,PT-100025,"Serum sodium",NA,2026-03-14,154,"mmol/L",resulted
+LAB-00579,JPR-NAR,PT-101123,"Fasting glucose",FBS,2026-08-19,10,"mg/dL",resulted
+LAB-00580,JPR-FORT,PT-100724,"HbA1c",HBA1C,2026-07-25,19,"%",resulted
+LAB-00581,JPR-NAR,PT-100909,"HbA1c",HBA1C,2026-10-15,140,"%",resulted
+LAB-00582,JPR-SMS,PT-101305,"Total leukocyte count",TLC,2026-07-30,67,"/uL",resulted
+LAB-00583,JPR-SMS,PT-100706,"HbA1c",HBA1C,2026-02-26,115,"%",resulted
+LAB-00584,JPR-MET,PT-101246,"Chest X-ray",CXR,2026-03-02,155,"",resulted
+LAB-00585,JPR-FORT,PT-100260,"Fasting glucose",FBS,2026-08-18,115,"mg/dL",resulted
+LAB-00586,JPR-NAR,PT-101492,"Fasting glucose",FBS,2026-05-05,107,"mg/dL",resulted
+LAB-00587,JPR-FORT,PT-100889,"Total leukocyte count",TLC,2026-01-08,83,"/uL",resulted
+LAB-00588,JPR-FORT,PT-100786,"Urine routine",UR,2026-09-16,,"",ordered
+LAB-00589,JPR-SMS,PT-101252,"Fasting glucose",FBS,2026-09-18,,"mg/dL",cancelled
+LAB-00590,JPR-NAR,PT-101210,"Haemoglobin",Hb,2026-08-22,,"g/dL",collected
+LAB-00591,JPR-SMS,PT-100180,"Fasting glucose",FBS,2026-07-26,70,"mg/dL",resulted
+LAB-00592,JPR-NAR,PT-100046,"Chest X-ray",CXR,2026-03-31,12,"",resulted
+LAB-00593,JPR-FORT,PT-100625,"Serum sodium",NA,2026-03-31,,"mmol/L",collected
+LAB-00594,JPR-MET,PT-100341,"Fasting glucose",FBS,2026-01-19,98,"mg/dL",resulted
+LAB-00595,JPR-FORT,PT-100045,"Fasting glucose",FBS,2026-05-29,89,"mg/dL",resulted
+LAB-00596,JPR-NAR,PT-101258,"Haemoglobin",Hb,2026-01-16,61,"g/dL",resulted
+LAB-00597,JPR-SMS,PT-100163,"Serum creatinine",CREA,2026-03-15,,"mg/dL",ordered
+LAB-00598,JPR-NAR,PT-101360,"Fasting glucose",FBS,2026-08-28,59,"mg/dL",resulted
+LAB-00599,JPR-SMS,PT-100820,"Haemoglobin",Hb,2026-09-07,,"g/dL",cancelled
+LAB-00600,JPR-FORT,PT-101082,"Serum creatinine",CREA,2026-04-08,82,"mg/dL",resulted
+LAB-00601,JPR-FORT,PT-100955,"Serum sodium",NA,2026-04-01,56,"mmol/L",resulted
+LAB-00602,JPR-MET,PT-100175,"Chest X-ray",CXR,2026-05-04,94,"",resulted
+LAB-00603,JPR-NAR,PT-101170,"Fasting glucose",FBS,2026-01-21,99,"mg/dL",resulted
+LAB-00604,JPR-SMS,PT-101517,"Serum sodium",NA,2026-01-17,83,"mmol/L",resulted
+LAB-00605,JPR-NAR,PT-101174,"Total leukocyte count",TLC,2026-06-23,166,"/uL",resulted
+LAB-00606,JPR-SMS,PT-101094,"Serum creatinine",CREA,2026-03-11,108,"mg/dL",resulted
+LAB-00607,JPR-FORT,PT-101056,"Fasting glucose",FBS,2026-04-04,58,"mg/dL",resulted
+LAB-00608,JPR-FORT,PT-100696,"Haemoglobin",Hb,2026-04-05,126,"g/dL",resulted
+LAB-00609,JPR-NAR,PT-100434,"Total leukocyte count",TLC,2026-06-29,21,"/uL",resulted
+LAB-00610,JPR-MET,PT-101001,"Urine routine",UR,2026-08-21,122,"",resulted
+LAB-00611,JPR-NAR,PT-100619,"Haemoglobin",Hb,2026-10-16,8,"g/dL",resulted
+LAB-00612,JPR-FORT,PT-100182,"Urine routine",UR,2026-10-28,51,"",resulted
+LAB-00613,JPR-NAR,PT-100047,"Fasting glucose",FBS,2026-01-03,65,"mg/dL",resulted
+LAB-00614,JPR-FORT,PT-100689,"Urine routine",UR,2026-04-16,39,"",resulted
+LAB-00615,JPR-FORT,PT-101054,"Total leukocyte count",TLC,2026-01-25,164,"/uL",resulted
+LAB-00616,JPR-NAR,PT-101288,"Chest X-ray",CXR,2026-09-12,73,"",resulted
+LAB-00617,JPR-FORT,PT-100716,"Total leukocyte count",TLC,2026-02-10,171,"/uL",resulted
+LAB-00618,JPR-MET,PT-100668,"Chest X-ray",CXR,2026-10-27,82,"",resulted
+LAB-00619,JPR-FORT,PT-101391,"Haemoglobin",Hb,2026-07-02,142,"g/dL",resulted
+LAB-00620,JPR-NAR,PT-101124,"Total leukocyte count",TLC,2026-08-19,83,"/uL",resulted
+LAB-00621,JPR-MET,PT-100689,"Serum creatinine",CREA,2026-03-27,134,"mg/dL",resulted
+LAB-00622,JPR-SMS,PT-101259,"Fasting glucose",FBS,2026-07-24,129,"mg/dL",resulted
+LAB-00623,JPR-MET,PT-100330,"Total leukocyte count",TLC,2026-04-04,150,"/uL",resulted
+LAB-00624,JPR-MET,PT-100549,"Serum creatinine",CREA,2026-05-23,3,"mg/dL",resulted
+LAB-00625,JPR-SMS,PT-100500,"Fasting glucose",FBS,2026-10-09,44,"mg/dL",resulted
+LAB-00626,JPR-SMS,PT-100870,"Chest X-ray",CXR,2026-09-23,92,"",resulted
+LAB-00627,JPR-FORT,PT-100070,"Serum creatinine",CREA,2026-07-11,93,"mg/dL",resulted
+LAB-00628,JPR-SMS,PT-101167,"Haemoglobin",Hb,2026-05-15,88,"g/dL",resulted
+LAB-00629,JPR-FORT,PT-100565,"Chest X-ray",CXR,2026-07-25,176,"",resulted
+LAB-00630,JPR-FORT,PT-100094,"HbA1c",HBA1C,2026-05-08,68,"%",resulted
+LAB-00631,JPR-NAR,PT-101472,"Serum sodium",NA,2026-04-03,,"mmol/L",cancelled
+LAB-00632,JPR-SMS,PT-100512,"Urine routine",UR,2026-02-23,142,"",resulted
+LAB-00633,JPR-SMS,PT-100766,"Chest X-ray",CXR,2026-01-08,42,"",resulted
+LAB-00634,JPR-MET,PT-100946,"Serum sodium",NA,2026-07-15,,"mmol/L",collected
+LAB-00635,JPR-FORT,PT-101219,"Fasting glucose",FBS,2026-08-23,42,"mg/dL",resulted
+LAB-00636,JPR-SMS,PT-100669,"HbA1c",HBA1C,2026-08-19,,"%",collected
+LAB-00637,JPR-SMS,PT-100525,"Serum creatinine",CREA,2026-10-16,,"mg/dL",ordered
+LAB-00638,JPR-MET,PT-101232,"Chest X-ray",CXR,2026-10-01,12,"",resulted
+LAB-00639,JPR-SMS,PT-100128,"Chest X-ray",CXR,2026-05-21,,"",cancelled
+LAB-00640,JPR-FORT,PT-101362,"Chest X-ray",CXR,2026-08-27,133,"",resulted
+LAB-00641,JPR-SMS,PT-100870,"Urine routine",UR,2026-04-22,75,"",resulted
+LAB-00642,JPR-NAR,PT-100840,"Fasting glucose",FBS,2026-04-16,156,"mg/dL",resulted
+LAB-00643,JPR-SMS,PT-101269,"Fasting glucose",FBS,2026-09-05,124,"mg/dL",resulted
+LAB-00644,JPR-FORT,PT-100377,"Urine routine",UR,2026-06-08,153,"",resulted
+LAB-00645,JPR-MET,PT-100885,"Haemoglobin",Hb,2026-03-24,46,"g/dL",resulted
+LAB-00646,JPR-NAR,PT-100117,"Fasting glucose",FBS,2026-01-08,42,"mg/dL",resulted
+LAB-00647,JPR-FORT,PT-100925,"Serum creatinine",CREA,2026-03-02,38,"mg/dL",resulted
+LAB-00648,JPR-NAR,PT-101334,"HbA1c",HBA1C,2026-05-13,96,"%",resulted
+LAB-00649,JPR-NAR,PT-100733,"Urine routine",UR,2026-09-05,180,"",resulted
+LAB-00650,JPR-SMS,PT-101005,"Total leukocyte count",TLC,2026-04-06,11,"/uL",resulted
+LAB-00651,JPR-NAR,PT-101391,"Serum creatinine",CREA,2026-06-14,,"mg/dL",cancelled
+LAB-00652,JPR-SMS,PT-101333,"Urine routine",UR,2026-01-12,139,"",resulted
+LAB-00653,JPR-SMS,PT-100579,"Fasting glucose",FBS,2026-02-14,12,"mg/dL",resulted
+LAB-00654,JPR-FORT,PT-100278,"HbA1c",HBA1C,2026-07-18,149,"%",resulted
+LAB-00655,JPR-SMS,PT-101362,"Total leukocyte count",TLC,2026-09-24,,"/uL",cancelled
+LAB-00656,JPR-SMS,PT-101200,"Haemoglobin",Hb,2026-10-25,82,"g/dL",resulted
+LAB-00657,JPR-MET,PT-101515,"Total leukocyte count",TLC,2026-01-12,62,"/uL",resulted
+LAB-00658,JPR-FORT,PT-100780,"Fasting glucose",FBS,2026-06-29,32,"mg/dL",resulted
+LAB-00659,JPR-SMS,PT-100534,"Serum creatinine",CREA,2026-07-15,53,"mg/dL",resulted
+LAB-00660,JPR-MET,PT-100198,"Urine routine",UR,2026-06-21,106,"",resulted
+LAB-00661,JPR-MET,PT-100867,"Haemoglobin",Hb,2026-04-25,25,"g/dL",resulted
+LAB-00662,JPR-MET,PT-101035,"Chest X-ray",CXR,2026-02-08,48,"",resulted
+LAB-00663,JPR-FORT,PT-100099,"Haemoglobin",Hb,2026-08-25,136,"g/dL",resulted
+LAB-00664,JPR-FORT,PT-101117,"Haemoglobin",Hb,2026-05-18,65,"g/dL",resulted
+LAB-00665,JPR-SMS,PT-100173,"Serum sodium",NA,2026-05-14,62,"mmol/L",resulted
+LAB-00666,JPR-SMS,PT-101345,"Serum sodium",NA,2026-04-27,,"mmol/L",ordered
+LAB-00667,JPR-FORT,PT-100669,"Total leukocyte count",TLC,2026-07-30,112,"/uL",resulted
+LAB-00668,JPR-MET,PT-101365,"HbA1c",HBA1C,2026-08-20,4,"%",resulted
+LAB-00669,JPR-NAR,PT-101437,"Haemoglobin",Hb,2026-10-25,,"g/dL",cancelled
+LAB-00670,JPR-FORT,PT-100451,"Urine routine",UR,2026-07-07,56,"",resulted
+LAB-00671,JPR-MET,PT-100677,"Serum creatinine",CREA,2026-01-01,159,"mg/dL",resulted
+LAB-00672,JPR-MET,PT-100536,"Haemoglobin",Hb,2026-05-25,102,"g/dL",resulted
+LAB-00673,JPR-MET,PT-100812,"Haemoglobin",Hb,2026-02-14,168,"g/dL",resulted
+LAB-00674,JPR-FORT,PT-101056,"Total leukocyte count",TLC,2026-05-27,74,"/uL",resulted
+LAB-00675,JPR-SMS,PT-101355,"Serum sodium",NA,2026-01-21,177,"mmol/L",resulted
+LAB-00676,JPR-NAR,PT-100082,"HbA1c",HBA1C,2026-02-03,44,"%",resulted
+LAB-00677,JPR-NAR,PT-101062,"Serum creatinine",CREA,2026-02-19,50,"mg/dL",resulted
+LAB-00678,JPR-FORT,PT-101340,"Haemoglobin",Hb,2026-07-14,10,"g/dL",resulted
+LAB-00679,JPR-SMS,PT-101511,"Chest X-ray",CXR,2026-05-04,161,"",resulted
+LAB-00680,JPR-SMS,PT-101155,"Chest X-ray",CXR,2026-08-12,150,"",resulted
+LAB-00681,JPR-SMS,PT-100095,"Chest X-ray",CXR,2026-09-27,92,"",resulted
+LAB-00682,JPR-MET,PT-101441,"Urine routine",UR,2026-08-02,126,"",resulted
+LAB-00683,JPR-SMS,PT-100410,"Total leukocyte count",TLC,2026-09-17,,"/uL",collected
+LAB-00684,JPR-SMS,PT-100660,"Fasting glucose",FBS,2026-04-13,148,"mg/dL",resulted
+LAB-00685,JPR-FORT,PT-101326,"Fasting glucose",FBS,2026-02-25,85,"mg/dL",resulted
+LAB-00686,JPR-FORT,PT-100493,"Serum sodium",NA,2026-05-14,152,"mmol/L",resulted
+LAB-00687,JPR-FORT,PT-101130,"Fasting glucose",FBS,2026-06-25,177,"mg/dL",resulted
+LAB-00688,JPR-SMS,PT-100724,"Haemoglobin",Hb,2026-05-01,54,"g/dL",resulted
+LAB-00689,JPR-MET,PT-100116,"Total leukocyte count",TLC,2026-10-26,60,"/uL",resulted
+LAB-00690,JPR-MET,PT-101011,"HbA1c",HBA1C,2026-04-13,26,"%",resulted
+LAB-00691,JPR-NAR,PT-100671,"Fasting glucose",FBS,2026-09-18,76,"mg/dL",resulted
+LAB-00692,JPR-NAR,PT-101126,"Haemoglobin",Hb,2026-09-26,123,"g/dL",resulted
+LAB-00693,JPR-SMS,PT-101186,"Total leukocyte count",TLC,2026-04-23,8,"/uL",resulted
+LAB-00694,JPR-NAR,PT-100785,"Fasting glucose",FBS,2026-05-17,44,"mg/dL",resulted
+LAB-00695,JPR-NAR,PT-100368,"Fasting glucose",FBS,2026-08-15,79,"mg/dL",resulted
+LAB-00696,JPR-NAR,PT-100574,"Serum creatinine",CREA,2026-06-09,66,"mg/dL",resulted
+LAB-00697,JPR-NAR,PT-101438,"Serum sodium",NA,2026-03-18,177,"mmol/L",resulted
+LAB-00698,JPR-SMS,PT-101265,"Chest X-ray",CXR,2026-06-23,106,"",resulted
+LAB-00699,JPR-NAR,PT-101520,"Total leukocyte count",TLC,2026-05-25,30,"/uL",resulted
+LAB-00700,JPR-MET,PT-100755,"Serum sodium",NA,2026-04-14,177,"mmol/L",resulted
+LAB-00701,JPR-SMS,PT-100691,"Fasting glucose",FBS,2026-01-08,8,"mg/dL",resulted
+LAB-00702,JPR-SMS,PT-100407,"HbA1c",HBA1C,2026-08-07,161,"%",resulted
+LAB-00703,JPR-MET,PT-101510,"Serum creatinine",CREA,2026-08-06,12,"mg/dL",resulted
+LAB-00704,JPR-NAR,PT-100948,"Haemoglobin",Hb,2026-06-20,126,"g/dL",resulted
+LAB-00705,JPR-SMS,PT-100711,"Serum creatinine",CREA,2026-10-10,151,"mg/dL",resulted
+LAB-00706,JPR-MET,PT-100490,"Total leukocyte count",TLC,2026-10-11,93,"/uL",resulted
+LAB-00707,JPR-FORT,PT-101067,"Haemoglobin",Hb,2026-07-16,30,"g/dL",resulted
+LAB-00708,JPR-SMS,PT-101497,"Serum sodium",NA,2026-09-13,23,"mmol/L",resulted
+LAB-00709,JPR-MET,PT-100123,"Serum creatinine",CREA,2026-04-12,88,"mg/dL",resulted
+LAB-00710,JPR-FORT,PT-100389,"Urine routine",UR,2026-04-25,,"",collected
+LAB-00711,JPR-SMS,PT-101332,"Urine routine",UR,2026-09-05,,"",collected
+LAB-00712,JPR-FORT,PT-100905,"Total leukocyte count",TLC,2026-08-13,29,"/uL",resulted
+LAB-00713,JPR-FORT,PT-100492,"HbA1c",HBA1C,2026-07-23,81,"%",resulted
+LAB-00714,JPR-FORT,PT-101294,"Fasting glucose",FBS,2026-08-13,164,"mg/dL",resulted
+LAB-00715,JPR-MET,PT-101401,"Fasting glucose",FBS,2026-09-07,,"mg/dL",collected
+LAB-00716,JPR-MET,PT-100259,"Total leukocyte count",TLC,2026-06-21,111,"/uL",resulted
+LAB-00717,JPR-FORT,PT-100666,"Chest X-ray",CXR,2026-04-21,150,"",resulted
+LAB-00718,JPR-FORT,PT-101461,"HbA1c",HBA1C,2026-01-07,174,"%",resulted
+LAB-00719,JPR-MET,PT-100919,"Serum sodium",NA,2026-09-09,61,"mmol/L",resulted
+LAB-00720,JPR-FORT,PT-101275,"Urine routine",UR,2026-06-06,121,"",resulted
+LAB-00721,JPR-NAR,PT-100759,"Serum sodium",NA,2026-05-10,179,"mmol/L",resulted
+LAB-00722,JPR-MET,PT-101360,"Chest X-ray",CXR,2026-06-04,47,"",resulted
+LAB-00723,JPR-MET,PT-100100,"Chest X-ray",CXR,2026-09-20,137,"",resulted
+LAB-00724,JPR-NAR,PT-101007,"Fasting glucose",FBS,2026-02-08,16,"mg/dL",resulted
+LAB-00725,JPR-MET,PT-100497,"Fasting glucose",FBS,2026-10-15,70,"mg/dL",resulted
+LAB-00726,JPR-NAR,PT-100905,"Haemoglobin",Hb,2026-03-02,,"g/dL",cancelled
+LAB-00727,JPR-MET,PT-100229,"Urine routine",UR,2026-10-14,37,"",resulted
+LAB-00728,JPR-SMS,PT-101513,"Total leukocyte count",TLC,2026-01-07,48,"/uL",resulted
+LAB-00729,JPR-SMS,PT-101103,"Fasting glucose",FBS,2026-05-01,137,"mg/dL",resulted
+LAB-00730,JPR-NAR,PT-100977,"Serum creatinine",CREA,2026-05-07,79,"mg/dL",resulted
+LAB-00731,JPR-FORT,PT-100053,"Chest X-ray",CXR,2026-01-05,,"",collected
+LAB-00732,JPR-FORT,PT-100948,"Fasting glucose",FBS,2026-01-06,,"mg/dL",ordered
+LAB-00733,JPR-SMS,PT-100027,"Haemoglobin",Hb,2026-07-19,131,"g/dL",resulted
+LAB-00734,JPR-SMS,PT-100085,"Serum sodium",NA,2026-09-08,119,"mmol/L",resulted
+LAB-00735,JPR-MET,PT-100290,"Fasting glucose",FBS,2026-07-24,93,"mg/dL",resulted
+LAB-00736,JPR-SMS,PT-101129,"Serum creatinine",CREA,2026-05-28,165,"mg/dL",resulted
+LAB-00737,JPR-MET,PT-101400,"Haemoglobin",Hb,2026-10-26,,"g/dL",collected
+LAB-00738,JPR-SMS,PT-101416,"Urine routine",UR,2026-08-10,121,"",resulted
+LAB-00739,JPR-NAR,PT-100975,"Urine routine",UR,2026-08-26,126,"",resulted
+LAB-00740,JPR-NAR,PT-101109,"Chest X-ray",CXR,2026-01-23,,"",collected
+LAB-00741,JPR-FORT,PT-101046,"HbA1c",HBA1C,2026-08-02,37,"%",resulted
+LAB-00742,JPR-NAR,PT-101301,"Total leukocyte count",TLC,2026-07-15,160,"/uL",resulted
+LAB-00743,JPR-SMS,PT-100816,"Urine routine",UR,2026-08-31,55,"",resulted
+LAB-00744,JPR-SMS,PT-101118,"Serum creatinine",CREA,2026-07-30,102,"mg/dL",resulted
+LAB-00745,JPR-SMS,PT-100945,"HbA1c",HBA1C,2026-08-10,6,"%",resulted
+LAB-00746,JPR-SMS,PT-100265,"Chest X-ray",CXR,2026-03-19,89,"",resulted
+LAB-00747,JPR-MET,PT-100074,"Haemoglobin",Hb,2026-10-19,112,"g/dL",resulted
+LAB-00748,JPR-MET,PT-100141,"Haemoglobin",Hb,2026-09-25,69,"g/dL",resulted
+LAB-00749,JPR-SMS,PT-101290,"Serum creatinine",CREA,2026-10-06,53,"mg/dL",resulted
+LAB-00750,JPR-SMS,PT-100071,"Fasting glucose",FBS,2026-07-07,116,"mg/dL",resulted
+LAB-00751,JPR-FORT,PT-100870,"Haemoglobin",Hb,2026-04-08,131,"g/dL",resulted
+LAB-00752,JPR-NAR,PT-100815,"Haemoglobin",Hb,2026-05-05,177,"g/dL",resulted
+LAB-00753,JPR-NAR,PT-100653,"Chest X-ray",CXR,2026-03-10,67,"",resulted
+LAB-00754,JPR-NAR,PT-100478,"Serum sodium",NA,2026-08-13,114,"mmol/L",resulted
+LAB-00755,JPR-FORT,PT-100344,"Urine routine",UR,2026-06-01,78,"",resulted
+LAB-00756,JPR-FORT,PT-100327,"Haemoglobin",Hb,2026-03-15,62,"g/dL",resulted
+LAB-00757,JPR-SMS,PT-101203,"Fasting glucose",FBS,2026-07-19,20,"mg/dL",resulted
+LAB-00758,JPR-NAR,PT-100284,"Fasting glucose",FBS,2026-05-04,,"mg/dL",cancelled
+LAB-00759,JPR-MET,PT-101062,"Chest X-ray",CXR,2026-04-23,101,"",resulted
+LAB-00760,JPR-NAR,PT-100848,"Urine routine",UR,2026-09-02,,"",cancelled
+LAB-00761,JPR-FORT,PT-100670,"Haemoglobin",Hb,2026-01-23,,"g/dL",collected
+LAB-00762,JPR-NAR,PT-101135,"Total leukocyte count",TLC,2026-04-21,180,"/uL",resulted
+LAB-00763,JPR-SMS,PT-100557,"Serum creatinine",CREA,2026-05-17,,"mg/dL",collected
+LAB-00764,JPR-SMS,PT-101380,"HbA1c",HBA1C,2026-06-23,71,"%",resulted
+LAB-00765,JPR-SMS,PT-100038,"Total leukocyte count",TLC,2026-08-16,142,"/uL",resulted
+LAB-00766,JPR-NAR,PT-100377,"HbA1c",HBA1C,2026-08-29,120,"%",resulted
+LAB-00767,JPR-FORT,PT-101163,"Serum creatinine",CREA,2026-02-23,104,"mg/dL",resulted
+LAB-00768,JPR-SMS,PT-101520,"HbA1c",HBA1C,2026-10-08,,"%",ordered
+LAB-00769,JPR-FORT,PT-101042,"Fasting glucose",FBS,2026-09-04,118,"mg/dL",resulted
+LAB-00770,JPR-FORT,PT-100391,"Chest X-ray",CXR,2026-02-09,108,"",resulted
+LAB-00771,JPR-FORT,PT-100506,"Fasting glucose",FBS,2026-10-10,61,"mg/dL",resulted
+LAB-00772,JPR-SMS,PT-100355,"Haemoglobin",Hb,2026-04-28,61,"g/dL",resulted
+LAB-00773,JPR-SMS,PT-101089,"Haemoglobin",Hb,2026-05-15,,"g/dL",cancelled
+LAB-00774,JPR-MET,PT-100870,"Serum creatinine",CREA,2026-02-07,77,"mg/dL",resulted
+LAB-00775,JPR-NAR,PT-100771,"Serum creatinine",CREA,2026-10-21,9,"mg/dL",resulted
+LAB-00776,JPR-MET,PT-101186,"Urine routine",UR,2026-02-01,75,"",resulted
+LAB-00777,JPR-MET,PT-100858,"Chest X-ray",CXR,2026-09-25,128,"",resulted
+LAB-00778,JPR-SMS,PT-101487,"Fasting glucose",FBS,2026-04-06,85,"mg/dL",resulted
+LAB-00779,JPR-MET,PT-100145,"Fasting glucose",FBS,2026-01-18,11,"mg/dL",resulted
+LAB-00780,JPR-SMS,PT-100698,"HbA1c",HBA1C,2026-07-29,111,"%",resulted
+LAB-00781,JPR-FORT,PT-100169,"Urine routine",UR,2026-04-10,38,"",resulted
+LAB-00782,JPR-MET,PT-101219,"Haemoglobin",Hb,2026-08-08,101,"g/dL",resulted
+LAB-00783,JPR-MET,PT-101508,"Urine routine",UR,2026-10-20,21,"",resulted
+LAB-00784,JPR-NAR,PT-100736,"Serum creatinine",CREA,2026-04-28,160,"mg/dL",resulted
+LAB-00785,JPR-SMS,PT-100441,"Urine routine",UR,2026-06-07,131,"",resulted
+LAB-00786,JPR-FORT,PT-100450,"Total leukocyte count",TLC,2026-10-08,110,"/uL",resulted
+LAB-00787,JPR-SMS,PT-100257,"Total leukocyte count",TLC,2026-09-11,,"/uL",cancelled
+LAB-00788,JPR-NAR,PT-101480,"Haemoglobin",Hb,2026-05-20,47,"g/dL",resulted
+LAB-00789,JPR-SMS,PT-101518,"Serum creatinine",CREA,2026-03-26,70,"mg/dL",resulted
+LAB-00790,JPR-FORT,PT-101243,"Serum creatinine",CREA,2026-04-26,,"mg/dL",ordered
+LAB-00791,JPR-MET,PT-100055,"Serum creatinine",CREA,2026-03-19,51,"mg/dL",resulted
+LAB-00792,JPR-MET,PT-100447,"Haemoglobin",Hb,2026-01-06,152,"g/dL",resulted
+LAB-00793,JPR-MET,PT-100493,"Haemoglobin",Hb,2026-08-07,58,"g/dL",resulted
+LAB-00794,JPR-NAR,PT-101249,"Haemoglobin",Hb,2026-02-07,172,"g/dL",resulted
+LAB-00795,JPR-SMS,PT-100075,"Fasting glucose",FBS,2026-02-28,105,"mg/dL",resulted
+LAB-00796,JPR-MET,PT-100349,"Serum creatinine",CREA,2026-01-15,145,"mg/dL",resulted
+LAB-00797,JPR-MET,PT-100174,"Serum creatinine",CREA,2026-05-02,40,"mg/dL",resulted
+LAB-00798,JPR-NAR,PT-101031,"HbA1c",HBA1C,2026-08-09,42,"%",resulted
+LAB-00799,JPR-MET,PT-101028,"Fasting glucose",FBS,2026-08-20,148,"mg/dL",resulted
+LAB-00800,JPR-MET,PT-101415,"Chest X-ray",CXR,2026-09-08,170,"",resulted
+LAB-00801,JPR-FORT,PT-101232,"Serum sodium",NA,2026-02-23,24,"mmol/L",resulted
+LAB-00802,JPR-FORT,PT-100450,"Total leukocyte count",TLC,2026-07-12,,"/uL",ordered
+LAB-00803,JPR-FORT,PT-100992,"Haemoglobin",Hb,2026-08-31,10,"g/dL",resulted
+LAB-00804,JPR-SMS,PT-101059,"Chest X-ray",CXR,2026-07-09,50,"",resulted
+LAB-00805,JPR-NAR,PT-100942,"Serum sodium",NA,2026-10-16,112,"mmol/L",resulted
+LAB-00806,JPR-SMS,PT-100847,"Serum sodium",NA,2026-08-08,,"mmol/L",cancelled
+LAB-00807,JPR-SMS,PT-100863,"Serum sodium",NA,2026-03-02,45,"mmol/L",resulted
+LAB-00808,JPR-MET,PT-100880,"Serum sodium",NA,2026-08-01,50,"mmol/L",resulted
+LAB-00809,JPR-FORT,PT-100014,"Total leukocyte count",TLC,2026-03-04,42,"/uL",resulted
+LAB-00810,JPR-NAR,PT-100847,"Serum creatinine",CREA,2026-03-18,25,"mg/dL",resulted
+LAB-00811,JPR-FORT,PT-101135,"Chest X-ray",CXR,2026-02-03,126,"",resulted
+LAB-00812,JPR-MET,PT-101178,"Serum sodium",NA,2026-07-15,11,"mmol/L",resulted
+LAB-00813,JPR-FORT,PT-100758,"Serum sodium",NA,2026-04-03,38,"mmol/L",resulted
+LAB-00814,JPR-MET,PT-101032,"Serum sodium",NA,2026-01-24,119,"mmol/L",resulted
+LAB-00815,JPR-FORT,PT-100684,"Haemoglobin",Hb,2026-10-16,123,"g/dL",resulted
+LAB-00816,JPR-FORT,PT-101287,"Haemoglobin",Hb,2026-01-03,,"g/dL",ordered
+LAB-00817,JPR-SMS,PT-101147,"Urine routine",UR,2026-07-29,108,"",resulted
+LAB-00818,JPR-NAR,PT-100689,"Serum creatinine",CREA,2026-03-04,143,"mg/dL",resulted
+LAB-00819,JPR-SMS,PT-100602,"Chest X-ray",CXR,2026-03-10,75,"",resulted
+LAB-00820,JPR-MET,PT-101141,"HbA1c",HBA1C,2026-03-17,159,"%",resulted
+LAB-00821,JPR-FORT,PT-100032,"Chest X-ray",CXR,2026-09-13,120,"",resulted
+LAB-00822,JPR-MET,PT-100387,"Chest X-ray",CXR,2026-07-19,171,"",resulted
+LAB-00823,JPR-NAR,PT-100876,"Serum creatinine",CREA,2026-01-31,68,"mg/dL",resulted
+LAB-00824,JPR-FORT,PT-101037,"Total leukocyte count",TLC,2026-01-06,126,"/uL",resulted
+LAB-00825,JPR-MET,PT-101311,"Total leukocyte count",TLC,2026-01-13,97,"/uL",resulted
+LAB-00826,JPR-MET,PT-101210,"Haemoglobin",Hb,2026-07-12,40,"g/dL",resulted
+LAB-00827,JPR-NAR,PT-100607,"HbA1c",HBA1C,2026-09-23,160,"%",resulted
+LAB-00828,JPR-FORT,PT-101103,"Serum sodium",NA,2026-08-03,138,"mmol/L",resulted
+LAB-00829,JPR-FORT,PT-100267,"Urine routine",UR,2026-10-15,47,"",resulted
+LAB-00830,JPR-SMS,PT-100653,"HbA1c",HBA1C,2026-10-26,164,"%",resulted
+LAB-00831,JPR-FORT,PT-100219,"Serum sodium",NA,2026-03-20,17,"mmol/L",resulted
+LAB-00832,JPR-SMS,PT-100491,"Serum creatinine",CREA,2026-04-23,99,"mg/dL",resulted
+LAB-00833,JPR-MET,PT-100897,"Chest X-ray",CXR,2026-01-23,19,"",resulted
+LAB-00834,JPR-NAR,PT-100437,"Serum creatinine",CREA,2026-01-10,167,"mg/dL",resulted
+LAB-00835,JPR-MET,PT-101098,"Haemoglobin",Hb,2026-04-17,15,"g/dL",resulted
+LAB-00836,JPR-SMS,PT-100847,"HbA1c",HBA1C,2026-09-26,,"%",cancelled
+LAB-00837,JPR-NAR,PT-100150,"Chest X-ray",CXR,2026-09-30,38,"",resulted
+LAB-00838,JPR-NAR,PT-100311,"Serum sodium",NA,2026-07-10,157,"mmol/L",resulted
+LAB-00839,JPR-MET,PT-101137,"Haemoglobin",Hb,2026-06-28,,"g/dL",collected
+LAB-00840,JPR-FORT,PT-100353,"HbA1c",HBA1C,2026-06-03,177,"%",resulted
+LAB-00841,JPR-NAR,PT-100103,"Serum sodium",NA,2026-01-03,98,"mmol/L",resulted
+LAB-00842,JPR-NAR,PT-100715,"Haemoglobin",Hb,2026-07-15,5,"g/dL",resulted
+LAB-00843,JPR-FORT,PT-101422,"Serum creatinine",CREA,2026-05-03,,"mg/dL",collected
+LAB-00844,JPR-SMS,PT-101209,"Chest X-ray",CXR,2026-07-17,125,"",resulted
+LAB-00845,JPR-MET,PT-100791,"Urine routine",UR,2026-09-09,,"",ordered
+LAB-00846,JPR-FORT,PT-100590,"Haemoglobin",Hb,2026-07-15,,"g/dL",ordered
+LAB-00847,JPR-NAR,PT-101211,"Total leukocyte count",TLC,2026-08-04,162,"/uL",resulted
+LAB-00848,JPR-NAR,PT-100047,"Total leukocyte count",TLC,2026-01-26,53,"/uL",resulted
+LAB-00849,JPR-SMS,PT-101123,"Total leukocyte count",TLC,2026-04-25,139,"/uL",resulted
+LAB-00850,JPR-MET,PT-100992,"Fasting glucose",FBS,2026-10-19,8,"mg/dL",resulted
+LAB-00851,JPR-FORT,PT-100993,"HbA1c",HBA1C,2026-03-15,37,"%",resulted
+LAB-00852,JPR-FORT,PT-100940,"Urine routine",UR,2026-04-08,96,"",resulted
+LAB-00853,JPR-NAR,PT-100296,"Urine routine",UR,2026-07-17,114,"",resulted
+LAB-00854,JPR-SMS,PT-100800,"Haemoglobin",Hb,2026-01-14,177,"g/dL",resulted
+LAB-00855,JPR-FORT,PT-101473,"Chest X-ray",CXR,2026-07-12,21,"",resulted
+LAB-00856,JPR-SMS,PT-100672,"Fasting glucose",FBS,2026-05-12,143,"mg/dL",resulted
+LAB-00857,JPR-SMS,PT-101190,"Urine routine",UR,2026-10-20,136,"",resulted
+LAB-00858,JPR-MET,PT-101292,"Serum sodium",NA,2026-02-05,,"mmol/L",cancelled
+LAB-00859,JPR-NAR,PT-101484,"Serum creatinine",CREA,2026-05-06,37,"mg/dL",resulted
+LAB-00860,JPR-NAR,PT-101176,"Chest X-ray",CXR,2026-01-31,161,"",resulted
+LAB-00861,JPR-SMS,PT-100531,"Urine routine",UR,2026-01-05,,"",collected
+LAB-00862,JPR-NAR,PT-101277,"Total leukocyte count",TLC,2026-02-25,,"/uL",collected
+LAB-00863,JPR-FORT,PT-100973,"Fasting glucose",FBS,2026-07-31,79,"mg/dL",resulted
+LAB-00864,JPR-MET,PT-100332,"Total leukocyte count",TLC,2026-10-28,148,"/uL",resulted
+LAB-00865,JPR-NAR,PT-100869,"Serum creatinine",CREA,2026-08-18,175,"mg/dL",resulted
+LAB-00866,JPR-SMS,PT-101100,"Fasting glucose",FBS,2026-04-06,8,"mg/dL",resulted
+LAB-00867,JPR-FORT,PT-101394,"Serum sodium",NA,2026-08-27,162,"mmol/L",resulted
+LAB-00868,JPR-NAR,PT-100778,"Haemoglobin",Hb,2026-06-05,38,"g/dL",resulted
+LAB-00869,JPR-NAR,PT-100165,"Urine routine",UR,2026-03-04,8,"",resulted
+LAB-00870,JPR-FORT,PT-100250,"Urine routine",UR,2026-03-18,144,"",resulted
+LAB-00871,JPR-MET,PT-100496,"Serum sodium",NA,2026-06-07,152,"mmol/L",resulted
+LAB-00872,JPR-SMS,PT-100141,"HbA1c",HBA1C,2026-08-17,114,"%",resulted
+LAB-00873,JPR-NAR,PT-100148,"Fasting glucose",FBS,2026-09-18,157,"mg/dL",resulted
+LAB-00874,JPR-SMS,PT-100792,"Urine routine",UR,2026-04-08,166,"",resulted
+LAB-00875,JPR-NAR,PT-101292,"HbA1c",HBA1C,2026-05-21,,"%",ordered
+LAB-00876,JPR-FORT,PT-100803,"Urine routine",UR,2026-09-19,139,"",resulted
+LAB-00877,JPR-MET,PT-101434,"Serum creatinine",CREA,2026-02-11,38,"mg/dL",resulted
+LAB-00878,JPR-MET,PT-101360,"Haemoglobin",Hb,2026-07-24,81,"g/dL",resulted
+LAB-00879,JPR-FORT,PT-100178,"Serum creatinine",CREA,2026-10-05,,"mg/dL",collected
+LAB-00880,JPR-NAR,PT-101078,"Fasting glucose",FBS,2026-07-24,60,"mg/dL",resulted
+LAB-00881,JPR-SMS,PT-100632,"Urine routine",UR,2026-05-17,,"",ordered
+LAB-00882,JPR-FORT,PT-100010,"Serum sodium",NA,2026-09-13,79,"mmol/L",resulted
+LAB-00883,JPR-FORT,PT-101432,"Total leukocyte count",TLC,2026-08-06,45,"/uL",resulted
+LAB-00884,JPR-MET,PT-101363,"Total leukocyte count",TLC,2026-07-15,,"/uL",cancelled
+LAB-00885,JPR-MET,PT-100139,"Serum sodium",NA,2026-03-14,40,"mmol/L",resulted
+LAB-00886,JPR-FORT,PT-101371,"HbA1c",HBA1C,2026-06-23,162,"%",resulted
+LAB-00887,JPR-SMS,PT-100177,"Serum creatinine",CREA,2026-09-18,180,"mg/dL",resulted
+LAB-00888,JPR-FORT,PT-100841,"Total leukocyte count",TLC,2026-02-13,149,"/uL",resulted
+LAB-00889,JPR-FORT,PT-100107,"Urine routine",UR,2026-08-02,146,"",resulted
+LAB-00890,JPR-MET,PT-100622,"Total leukocyte count",TLC,2026-01-03,97,"/uL",resulted
+LAB-00891,JPR-FORT,PT-100894,"Serum creatinine",CREA,2026-10-12,,"mg/dL",collected
+LAB-00892,JPR-FORT,PT-100007,"Haemoglobin",Hb,2026-10-26,11,"g/dL",resulted
+LAB-00893,JPR-NAR,PT-100035,"Urine routine",UR,2026-05-10,,"",collected
+LAB-00894,JPR-FORT,PT-100747,"Total leukocyte count",TLC,2026-02-21,38,"/uL",resulted
+LAB-00895,JPR-SMS,PT-101335,"Haemoglobin",Hb,2026-05-02,,"g/dL",ordered
+LAB-00896,JPR-FORT,PT-101377,"Fasting glucose",FBS,2026-04-28,143,"mg/dL",resulted
+LAB-00897,JPR-SMS,PT-100837,"Serum sodium",NA,2026-08-15,75,"mmol/L",resulted
+LAB-00898,JPR-NAR,PT-100520,"Fasting glucose",FBS,2026-08-19,57,"mg/dL",resulted
+LAB-00899,JPR-SMS,PT-101307,"Haemoglobin",Hb,2026-06-24,47,"g/dL",resulted
+LAB-00900,JPR-NAR,PT-100768,"Serum creatinine",CREA,2026-01-31,,"mg/dL",ordered
+LAB-00901,JPR-SMS,PT-101295,"Fasting glucose",FBS,2026-01-07,,"mg/dL",cancelled
+LAB-00902,JPR-NAR,PT-100508,"Serum creatinine",CREA,2026-03-22,172,"mg/dL",resulted
+LAB-00903,JPR-FORT,PT-101273,"Urine routine",UR,2026-07-02,,"",ordered
+LAB-00904,JPR-FORT,PT-101159,"Urine routine",UR,2026-10-15,,"",collected
+LAB-00905,JPR-NAR,PT-101076,"Chest X-ray",CXR,2026-06-28,123,"",resulted
+LAB-00906,JPR-MET,PT-101159,"Total leukocyte count",TLC,2026-04-18,159,"/uL",resulted
+LAB-00907,JPR-FORT,PT-101410,"Total leukocyte count",TLC,2026-01-19,106,"/uL",resulted
+LAB-00908,JPR-MET,PT-100350,"Urine routine",UR,2026-07-29,142,"",resulted
+LAB-00909,JPR-FORT,PT-101185,"Chest X-ray",CXR,2026-07-27,126,"",resulted
+LAB-00910,JPR-NAR,PT-100610,"Fasting glucose",FBS,2026-07-16,50,"mg/dL",resulted
+LAB-00911,JPR-SMS,PT-101159,"Total leukocyte count",TLC,2026-06-01,60,"/uL",resulted
+LAB-00912,JPR-FORT,PT-101198,"Fasting glucose",FBS,2026-01-31,9,"mg/dL",resulted
+LAB-00913,JPR-MET,PT-100314,"HbA1c",HBA1C,2026-01-15,,"%",collected
+LAB-00914,JPR-FORT,PT-101354,"Haemoglobin",Hb,2026-08-11,61,"g/dL",resulted
+LAB-00915,JPR-MET,PT-100771,"HbA1c",HBA1C,2026-08-14,162,"%",resulted
+LAB-00916,JPR-SMS,PT-100231,"Haemoglobin",Hb,2026-05-15,,"g/dL",collected
+LAB-00917,JPR-FORT,PT-100824,"Chest X-ray",CXR,2026-04-28,,"",collected
+LAB-00918,JPR-NAR,PT-101373,"Total leukocyte count",TLC,2026-06-15,127,"/uL",resulted
+LAB-00919,JPR-NAR,PT-100275,"Serum creatinine",CREA,2026-01-06,146,"mg/dL",resulted
+LAB-00920,JPR-FORT,PT-100364,"HbA1c",HBA1C,2026-03-21,140,"%",resulted
+LAB-00921,JPR-FORT,PT-101468,"Serum sodium",NA,2026-07-29,,"mmol/L",cancelled
+LAB-00922,JPR-MET,PT-100236,"Urine routine",UR,2026-01-05,121,"",resulted
+LAB-00923,JPR-MET,PT-100456,"HbA1c",HBA1C,2026-09-17,,"%",cancelled
+LAB-00924,JPR-MET,PT-100464,"Fasting glucose",FBS,2026-05-06,,"mg/dL",collected
+LAB-00925,JPR-MET,PT-101278,"Haemoglobin",Hb,2026-04-01,57,"g/dL",resulted
+LAB-00926,JPR-MET,PT-100335,"Fasting glucose",FBS,2026-01-19,35,"mg/dL",resulted
+LAB-00927,JPR-NAR,PT-101255,"Chest X-ray",CXR,2026-10-02,173,"",resulted
+LAB-00928,JPR-SMS,PT-101396,"Total leukocyte count",TLC,2026-05-27,,"/uL",cancelled
+LAB-00929,JPR-MET,PT-100871,"Fasting glucose",FBS,2026-08-30,58,"mg/dL",resulted
+LAB-00930,JPR-FORT,PT-100209,"Total leukocyte count",TLC,2026-09-25,134,"/uL",resulted
+LAB-00931,JPR-SMS,PT-100645,"Serum creatinine",CREA,2026-05-10,,"mg/dL",ordered
+LAB-00932,JPR-MET,PT-101112,"Serum sodium",NA,2026-05-25,,"mmol/L",collected
+LAB-00933,JPR-FORT,PT-101181,"Serum creatinine",CREA,2026-08-19,,"mg/dL",cancelled
+LAB-00934,JPR-NAR,PT-101311,"Chest X-ray",CXR,2026-06-27,,"",cancelled
+LAB-00935,JPR-SMS,PT-100084,"HbA1c",HBA1C,2026-08-01,41,"%",resulted
+LAB-00936,JPR-MET,PT-100130,"Serum creatinine",CREA,2026-09-12,59,"mg/dL",resulted
+LAB-00937,JPR-NAR,PT-101147,"Serum sodium",NA,2026-03-21,125,"mmol/L",resulted
+LAB-00938,JPR-NAR,PT-100755,"Total leukocyte count",TLC,2026-01-24,,"/uL",ordered
+LAB-00939,JPR-MET,PT-101297,"Serum creatinine",CREA,2026-03-07,6,"mg/dL",resulted
+LAB-00940,JPR-NAR,PT-100624,"HbA1c",HBA1C,2026-08-26,86,"%",resulted
+LAB-00941,JPR-MET,PT-100447,"Total leukocyte count",TLC,2026-03-08,51,"/uL",resulted
+LAB-00942,JPR-NAR,PT-100568,"Fasting glucose",FBS,2026-03-31,,"mg/dL",collected
+LAB-00943,JPR-NAR,PT-100484,"Serum creatinine",CREA,2026-07-12,,"mg/dL",cancelled
+LAB-00944,JPR-MET,PT-100655,"HbA1c",HBA1C,2026-10-03,61,"%",resulted
+LAB-00945,JPR-FORT,PT-101194,"Fasting glucose",FBS,2026-06-15,111,"mg/dL",resulted
+LAB-00946,JPR-NAR,PT-101386,"Chest X-ray",CXR,2026-08-24,,"",collected
+LAB-00947,JPR-SMS,PT-101298,"Fasting glucose",FBS,2026-07-18,142,"mg/dL",resulted
+LAB-00948,JPR-SMS,PT-100316,"Serum creatinine",CREA,2026-02-25,67,"mg/dL",resulted
+LAB-00949,JPR-NAR,PT-100941,"HbA1c",HBA1C,2026-02-12,47,"%",resulted
+LAB-00950,JPR-NAR,PT-100458,"Chest X-ray",CXR,2026-06-05,119,"",resulted
+LAB-00951,JPR-FORT,PT-100860,"Serum sodium",NA,2026-06-28,101,"mmol/L",resulted
+LAB-00952,JPR-SMS,PT-101490,"Total leukocyte count",TLC,2026-02-22,151,"/uL",resulted
+LAB-00953,JPR-SMS,PT-101433,"Serum creatinine",CREA,2026-07-09,15,"mg/dL",resulted
+LAB-00954,JPR-MET,PT-100025,"Haemoglobin",Hb,2026-01-28,48,"g/dL",resulted
+LAB-00955,JPR-MET,PT-100645,"Total leukocyte count",TLC,2026-09-04,101,"/uL",resulted
+LAB-00956,JPR-MET,PT-101224,"Serum creatinine",CREA,2026-07-16,32,"mg/dL",resulted
+LAB-00957,JPR-FORT,PT-101043,"HbA1c",HBA1C,2026-10-23,,"%",ordered
+LAB-00958,JPR-FORT,PT-100170,"Fasting glucose",FBS,2026-03-04,16,"mg/dL",resulted
+LAB-00959,JPR-MET,PT-101067,"Serum creatinine",CREA,2026-01-10,,"mg/dL",collected
+LAB-00960,JPR-SMS,PT-100066,"Total leukocyte count",TLC,2026-05-22,,"/uL",ordered
+LAB-00961,JPR-SMS,PT-101422,"Haemoglobin",Hb,2026-10-03,151,"g/dL",resulted
+LAB-00962,JPR-SMS,PT-100534,"Total leukocyte count",TLC,2026-05-15,99,"/uL",resulted
+LAB-00963,JPR-FORT,PT-101121,"Chest X-ray",CXR,2026-04-01,132,"",resulted
+LAB-00964,JPR-MET,PT-100964,"Serum sodium",NA,2026-08-15,167,"mmol/L",resulted
+LAB-00965,JPR-MET,PT-100893,"Serum sodium",NA,2026-01-30,158,"mmol/L",resulted
+LAB-00966,JPR-SMS,PT-100213,"Serum sodium",NA,2026-04-30,132,"mmol/L",resulted
+LAB-00967,JPR-SMS,PT-100024,"HbA1c",HBA1C,2026-10-11,,"%",ordered
+LAB-00968,JPR-FORT,PT-100257,"Total leukocyte count",TLC,2026-05-11,,"/uL",cancelled
+LAB-00969,JPR-SMS,PT-100524,"Fasting glucose",FBS,2026-03-01,157,"mg/dL",resulted
+LAB-00970,JPR-SMS,PT-100424,"Urine routine",UR,2026-01-19,,"",collected
+LAB-00971,JPR-MET,PT-100858,"HbA1c",HBA1C,2026-03-02,72,"%",resulted
+LAB-00972,JPR-NAR,PT-101254,"Urine routine",UR,2026-01-17,,"",cancelled
+LAB-00973,JPR-FORT,PT-100006,"HbA1c",HBA1C,2026-07-31,,"%",cancelled
+LAB-00974,JPR-MET,PT-100791,"Serum sodium",NA,2026-06-30,93,"mmol/L",resulted
+LAB-00975,JPR-MET,PT-100961,"Haemoglobin",Hb,2026-08-18,,"g/dL",ordered
+LAB-00976,JPR-MET,PT-100079,"HbA1c",HBA1C,2026-10-08,,"%",collected
+LAB-00977,JPR-FORT,PT-100099,"HbA1c",HBA1C,2026-06-27,139,"%",resulted
+LAB-00978,JPR-FORT,PT-101429,"Serum creatinine",CREA,2026-04-20,,"mg/dL",ordered
+LAB-00979,JPR-SMS,PT-101104,"Urine routine",UR,2026-01-13,135,"",resulted
+LAB-00980,JPR-NAR,PT-100199,"Serum sodium",NA,2026-06-24,23,"mmol/L",resulted
+LAB-00981,JPR-FORT,PT-100991,"Serum creatinine",CREA,2026-08-25,148,"mg/dL",resulted
+LAB-00982,JPR-SMS,PT-100186,"Fasting glucose",FBS,2026-03-22,48,"mg/dL",resulted
+LAB-00983,JPR-NAR,PT-101406,"Total leukocyte count",TLC,2026-04-10,91,"/uL",resulted
+LAB-00984,JPR-SMS,PT-100751,"Serum sodium",NA,2026-05-31,,"mmol/L",collected
+LAB-00985,JPR-SMS,PT-101122,"Serum creatinine",CREA,2026-05-17,40,"mg/dL",resulted
+LAB-00986,JPR-SMS,PT-100261,"Serum creatinine",CREA,2026-05-13,85,"mg/dL",resulted
+LAB-00987,JPR-MET,PT-100792,"HbA1c",HBA1C,2026-08-03,101,"%",resulted
+LAB-00988,JPR-FORT,PT-101345,"Total leukocyte count",TLC,2026-03-13,23,"/uL",resulted
+LAB-00989,JPR-SMS,PT-101068,"Chest X-ray",CXR,2026-01-22,164,"",resulted
+LAB-00990,JPR-SMS,PT-100765,"Serum sodium",NA,2026-03-09,126,"mmol/L",resulted
+LAB-00991,JPR-NAR,PT-101483,"Urine routine",UR,2026-09-05,6,"",resulted
+LAB-00992,JPR-MET,PT-100496,"Chest X-ray",CXR,2026-08-24,152,"",resulted
+LAB-00993,JPR-FORT,PT-100272,"Serum sodium",NA,2026-04-15,71,"mmol/L",resulted
+LAB-00994,JPR-FORT,PT-100720,"Haemoglobin",Hb,2026-05-20,,"g/dL",ordered
+LAB-00995,JPR-NAR,PT-100256,"Fasting glucose",FBS,2026-05-02,104,"mg/dL",resulted
+LAB-00996,JPR-MET,PT-101382,"Urine routine",UR,2026-03-20,11,"",resulted
+LAB-00997,JPR-NAR,PT-100357,"Haemoglobin",Hb,2026-10-09,146,"g/dL",resulted
+LAB-00998,JPR-SMS,PT-101252,"HbA1c",HBA1C,2026-02-01,68,"%",resulted
+LAB-00999,JPR-SMS,PT-101522,"Fasting glucose",FBS,2026-07-23,89,"mg/dL",resulted
+LAB-01000,JPR-SMS,PT-100549,"Total leukocyte count",TLC,2026-10-17,,"/uL",ordered
+LAB-01001,JPR-MET,PT-101281,"Chest X-ray",CXR,2026-10-16,79,"",resulted
+LAB-01002,JPR-FORT,PT-101392,"Serum creatinine",CREA,2026-02-10,37,"mg/dL",resulted
+LAB-01003,JPR-FORT,PT-100375,"Haemoglobin",Hb,2026-06-12,180,"g/dL",resulted
+LAB-01004,JPR-MET,PT-100725,"Serum creatinine",CREA,2026-07-15,16,"mg/dL",resulted
+LAB-01005,JPR-SMS,PT-101026,"Urine routine",UR,2026-04-19,77,"",resulted
+LAB-01006,JPR-SMS,PT-101217,"Chest X-ray",CXR,2026-08-27,102,"",resulted
+LAB-01007,JPR-MET,PT-101208,"Haemoglobin",Hb,2026-06-13,176,"g/dL",resulted
+LAB-01008,JPR-FORT,PT-100481,"Haemoglobin",Hb,2026-03-04,85,"g/dL",resulted
+LAB-01009,JPR-NAR,PT-100342,"Fasting glucose",FBS,2026-01-14,158,"mg/dL",resulted
+LAB-01010,JPR-MET,PT-100134,"Chest X-ray",CXR,2026-02-08,,"",collected
+LAB-01011,JPR-FORT,PT-100187,"HbA1c",HBA1C,2026-08-07,163,"%",resulted
+LAB-01012,JPR-SMS,PT-100368,"Serum creatinine",CREA,2026-06-30,31,"mg/dL",resulted
+LAB-01013,JPR-NAR,PT-100329,"Chest X-ray",CXR,2026-09-16,48,"",resulted
+LAB-01014,JPR-SMS,PT-100973,"Haemoglobin",Hb,2026-09-14,,"g/dL",ordered
+LAB-01015,JPR-FORT,PT-100245,"Urine routine",UR,2026-03-08,31,"",resulted
+LAB-01016,JPR-SMS,PT-101159,"Chest X-ray",CXR,2026-02-02,73,"",resulted
+LAB-01017,JPR-SMS,PT-100509,"Serum creatinine",CREA,2026-04-19,14,"mg/dL",resulted
+LAB-01018,JPR-NAR,PT-100074,"Chest X-ray",CXR,2026-06-03,127,"",resulted
+LAB-01019,JPR-FORT,PT-100609,"Chest X-ray",CXR,2026-07-27,,"",collected
+LAB-01020,JPR-MET,PT-100265,"Fasting glucose",FBS,2026-10-12,,"mg/dL",ordered
+LAB-01021,JPR-SMS,PT-100421,"Serum sodium",NA,2026-05-06,,"mmol/L",cancelled
+LAB-01022,JPR-SMS,PT-101485,"Serum sodium",NA,2026-10-19,21,"mmol/L",resulted
+LAB-01023,JPR-MET,PT-100547,"Chest X-ray",CXR,2026-06-25,,"",cancelled
+LAB-01024,JPR-MET,PT-100075,"Haemoglobin",Hb,2026-02-01,,"g/dL",cancelled
+LAB-01025,JPR-FORT,PT-100161,"Fasting glucose",FBS,2026-07-03,113,"mg/dL",resulted
+LAB-01026,JPR-FORT,PT-100371,"Serum creatinine",CREA,2026-02-28,80,"mg/dL",resulted
+LAB-01027,JPR-SMS,PT-100527,"HbA1c",HBA1C,2026-02-28,70,"%",resulted
+LAB-01028,JPR-MET,PT-100757,"Chest X-ray",CXR,2026-06-29,40,"",resulted
+LAB-01029,JPR-NAR,PT-101408,"Haemoglobin",Hb,2026-05-13,,"g/dL",ordered
+LAB-01030,JPR-MET,PT-101223,"Fasting glucose",FBS,2026-04-28,48,"mg/dL",resulted
+LAB-01031,JPR-MET,PT-100810,"Chest X-ray",CXR,2026-06-09,,"",cancelled
+LAB-01032,JPR-MET,PT-100397,"Serum sodium",NA,2026-10-09,70,"mmol/L",resulted
+LAB-01033,JPR-NAR,PT-101294,"HbA1c",HBA1C,2026-04-23,154,"%",resulted
+LAB-01034,JPR-SMS,PT-100690,"Fasting glucose",FBS,2026-04-24,134,"mg/dL",resulted
+LAB-01035,JPR-FORT,PT-100516,"Serum sodium",NA,2026-01-01,,"mmol/L",collected
+LAB-01036,JPR-SMS,PT-100954,"Serum creatinine",CREA,2026-10-22,132,"mg/dL",resulted
+LAB-01037,JPR-SMS,PT-100482,"Serum creatinine",CREA,2026-07-22,89,"mg/dL",resulted
+LAB-01038,JPR-MET,PT-100643,"Haemoglobin",Hb,2026-04-19,76,"g/dL",resulted
+LAB-01039,JPR-NAR,PT-100222,"Serum sodium",NA,2026-10-04,,"mmol/L",collected
+LAB-01040,JPR-MET,PT-100203,"Serum sodium",NA,2026-01-20,,"mmol/L",collected
+LAB-01041,JPR-SMS,PT-101038,"Urine routine",UR,2026-01-16,40,"",resulted
+LAB-01042,JPR-NAR,PT-101109,"Fasting glucose",FBS,2026-10-16,,"mg/dL",cancelled
+LAB-01043,JPR-NAR,PT-100454,"Fasting glucose",FBS,2026-08-30,110,"mg/dL",resulted
+LAB-01044,JPR-NAR,PT-100166,"Haemoglobin",Hb,2026-05-19,54,"g/dL",resulted
+LAB-01045,JPR-NAR,PT-100215,"Fasting glucose",FBS,2026-02-14,136,"mg/dL",resulted
+LAB-01046,JPR-MET,PT-100565,"Total leukocyte count",TLC,2026-06-19,127,"/uL",resulted
+LAB-01047,JPR-NAR,PT-100662,"Chest X-ray",CXR,2026-06-01,,"",ordered
+LAB-01048,JPR-MET,PT-100009,"Haemoglobin",Hb,2026-02-09,,"g/dL",collected
+LAB-01049,JPR-FORT,PT-101476,"Total leukocyte count",TLC,2026-08-28,132,"/uL",resulted
+LAB-01050,JPR-NAR,PT-100499,"Total leukocyte count",TLC,2026-01-02,114,"/uL",resulted
+LAB-01051,JPR-FORT,PT-100191,"Serum creatinine",CREA,2026-02-13,7,"mg/dL",resulted
+LAB-01052,JPR-SMS,PT-100853,"Serum creatinine",CREA,2026-08-31,21,"mg/dL",resulted
+LAB-01053,JPR-NAR,PT-100079,"Fasting glucose",FBS,2026-02-07,37,"mg/dL",resulted
+LAB-01054,JPR-NAR,PT-100554,"Urine routine",UR,2026-06-13,115,"",resulted
+LAB-01055,JPR-FORT,PT-101262,"Chest X-ray",CXR,2026-09-18,44,"",resulted
+LAB-01056,JPR-MET,PT-101148,"Total leukocyte count",TLC,2026-04-25,64,"/uL",resulted
+LAB-01057,JPR-FORT,PT-101158,"Serum creatinine",CREA,2026-05-18,81,"mg/dL",resulted
+LAB-01058,JPR-MET,PT-101000,"Total leukocyte count",TLC,2026-02-18,42,"/uL",resulted
+LAB-01059,JPR-MET,PT-100217,"Haemoglobin",Hb,2026-04-26,26,"g/dL",resulted
+LAB-01060,JPR-NAR,PT-100909,"Fasting glucose",FBS,2026-06-30,150,"mg/dL",resulted
+LAB-01061,JPR-NAR,PT-100159,"Urine routine",UR,2026-01-08,29,"",resulted
+LAB-01062,JPR-NAR,PT-100349,"Serum sodium",NA,2026-02-20,9,"mmol/L",resulted
+LAB-01063,JPR-SMS,PT-100604,"Haemoglobin",Hb,2026-04-21,139,"g/dL",resulted
+LAB-01064,JPR-MET,PT-101099,"Serum sodium",NA,2026-01-30,78,"mmol/L",resulted
+LAB-01065,JPR-NAR,PT-100348,"Serum creatinine",CREA,2026-06-02,,"mg/dL",cancelled
+LAB-01066,JPR-FORT,PT-100307,"Serum creatinine",CREA,2026-02-03,52,"mg/dL",resulted
+LAB-01067,JPR-NAR,PT-100802,"Chest X-ray",CXR,2026-07-04,64,"",resulted
+LAB-01068,JPR-SMS,PT-101190,"Urine routine",UR,2026-07-28,95,"",resulted
+LAB-01069,JPR-FORT,PT-100300,"Haemoglobin",Hb,2026-04-19,114,"g/dL",resulted
+LAB-01070,JPR-SMS,PT-101294,"Haemoglobin",Hb,2026-01-12,3,"g/dL",resulted
+LAB-01071,JPR-MET,PT-100433,"Serum sodium",NA,2026-01-20,171,"mmol/L",resulted
+LAB-01072,JPR-SMS,PT-101020,"Serum sodium",NA,2026-01-17,164,"mmol/L",resulted
+LAB-01073,JPR-MET,PT-100161,"Haemoglobin",Hb,2026-10-25,56,"g/dL",resulted
+LAB-01074,JPR-NAR,PT-100721,"Urine routine",UR,2026-01-01,42,"",resulted
+LAB-01075,JPR-MET,PT-101139,"Haemoglobin",Hb,2026-06-30,85,"g/dL",resulted
+LAB-01076,JPR-SMS,PT-100842,"HbA1c",HBA1C,2026-07-10,103,"%",resulted
+LAB-01077,JPR-SMS,PT-100768,"Serum creatinine",CREA,2026-07-28,133,"mg/dL",resulted
+LAB-01078,JPR-MET,PT-100140,"HbA1c",HBA1C,2026-10-13,145,"%",resulted
+LAB-01079,JPR-NAR,PT-100225,"Chest X-ray",CXR,2026-07-21,167,"",resulted
+LAB-01080,JPR-NAR,PT-101076,"Fasting glucose",FBS,2026-10-09,38,"mg/dL",resulted
+LAB-01081,JPR-MET,PT-100184,"Urine routine",UR,2026-05-18,,"",collected
+LAB-01082,JPR-NAR,PT-101426,"Fasting glucose",FBS,2026-09-21,31,"mg/dL",resulted
+LAB-01083,JPR-FORT,PT-100013,"HbA1c",HBA1C,2026-08-08,18,"%",resulted
+LAB-01084,JPR-NAR,PT-100261,"Serum sodium",NA,2026-02-01,115,"mmol/L",resulted
+LAB-01085,JPR-FORT,PT-101398,"HbA1c",HBA1C,2026-06-13,24,"%",resulted
+LAB-01086,JPR-SMS,PT-101152,"Urine routine",UR,2026-04-05,151,"",resulted
+LAB-01087,JPR-MET,PT-100908,"Chest X-ray",CXR,2026-05-25,68,"",resulted
+LAB-01088,JPR-SMS,PT-100341,"Urine routine",UR,2026-08-26,,"",cancelled
+LAB-01089,JPR-MET,PT-100665,"Total leukocyte count",TLC,2026-09-27,3,"/uL",resulted
+LAB-01090,JPR-SMS,PT-101449,"Haemoglobin",Hb,2026-02-08,143,"g/dL",resulted
+LAB-01091,JPR-MET,PT-101040,"Urine routine",UR,2026-10-09,14,"",resulted
+LAB-01092,JPR-MET,PT-100992,"Urine routine",UR,2026-04-22,106,"",resulted
+LAB-01093,JPR-MET,PT-100732,"Chest X-ray",CXR,2026-04-16,79,"",resulted
+LAB-01094,JPR-SMS,PT-100762,"Fasting glucose",FBS,2026-07-03,107,"mg/dL",resulted
+LAB-01095,JPR-FORT,PT-100950,"Fasting glucose",FBS,2026-04-01,,"mg/dL",cancelled
+LAB-01096,JPR-FORT,PT-101283,"Fasting glucose",FBS,2026-05-16,3,"mg/dL",resulted
+LAB-01097,JPR-FORT,PT-100134,"Serum sodium",NA,2026-07-23,68,"mmol/L",resulted
+LAB-01098,JPR-FORT,PT-101088,"Chest X-ray",CXR,2026-10-05,64,"",resulted
+LAB-01099,JPR-FORT,PT-101136,"Serum sodium",NA,2026-07-14,168,"mmol/L",resulted
+LAB-01100,JPR-NAR,PT-101060,"Haemoglobin",Hb,2026-07-31,80,"g/dL",resulted
+LAB-01101,JPR-NAR,PT-101266,"Fasting glucose",FBS,2026-05-03,130,"mg/dL",resulted
+LAB-01102,JPR-SMS,PT-101203,"HbA1c",HBA1C,2026-08-31,96,"%",resulted
+LAB-01103,JPR-NAR,PT-100074,"Serum creatinine",CREA,2026-05-03,109,"mg/dL",resulted
+LAB-01104,JPR-NAR,PT-100512,"Total leukocyte count",TLC,2026-10-26,50,"/uL",resulted
+LAB-01105,JPR-NAR,PT-100641,"Chest X-ray",CXR,2026-05-29,169,"",resulted
+LAB-01106,JPR-SMS,PT-100289,"Serum sodium",NA,2026-07-13,,"mmol/L",collected
+LAB-01107,JPR-FORT,PT-100336,"Chest X-ray",CXR,2026-08-01,63,"",resulted
+LAB-01108,JPR-SMS,PT-100977,"HbA1c",HBA1C,2026-09-08,54,"%",resulted
+LAB-01109,JPR-FORT,PT-100961,"Chest X-ray",CXR,2026-08-23,161,"",resulted
+LAB-01110,JPR-SMS,PT-101257,"Chest X-ray",CXR,2026-08-31,17,"",resulted
+LAB-01111,JPR-MET,PT-101460,"Fasting glucose",FBS,2026-05-21,58,"mg/dL",resulted
+LAB-01112,JPR-SMS,PT-100892,"Haemoglobin",Hb,2026-02-15,136,"g/dL",resulted
+LAB-01113,JPR-FORT,PT-100802,"Fasting glucose",FBS,2026-03-26,18,"mg/dL",resulted
+LAB-01114,JPR-NAR,PT-100078,"Haemoglobin",Hb,2026-04-09,85,"g/dL",resulted
+LAB-01115,JPR-SMS,PT-100931,"Urine routine",UR,2026-04-13,94,"",resulted
+LAB-01116,JPR-MET,PT-100596,"Total leukocyte count",TLC,2026-04-21,,"/uL",ordered
+LAB-01117,JPR-MET,PT-100015,"Total leukocyte count",TLC,2026-03-23,30,"/uL",resulted
+LAB-01118,JPR-NAR,PT-100739,"Serum sodium",NA,2026-09-25,99,"mmol/L",resulted
+LAB-01119,JPR-NAR,PT-100200,"Chest X-ray",CXR,2026-05-23,40,"",resulted
+LAB-01120,JPR-SMS,PT-100765,"Serum creatinine",CREA,2026-08-21,78,"mg/dL",resulted
+LAB-01121,JPR-SMS,PT-101039,"Fasting glucose",FBS,2026-02-24,,"mg/dL",cancelled
+LAB-01122,JPR-FORT,PT-100943,"Serum sodium",NA,2026-02-01,112,"mmol/L",resulted
+LAB-01123,JPR-NAR,PT-100516,"Fasting glucose",FBS,2026-01-18,,"mg/dL",collected
+LAB-01124,JPR-MET,PT-100539,"Serum sodium",NA,2026-03-15,75,"mmol/L",resulted
+LAB-01125,JPR-FORT,PT-100004,"Total leukocyte count",TLC,2026-04-11,83,"/uL",resulted
+LAB-01126,JPR-SMS,PT-100400,"Total leukocyte count",TLC,2026-02-12,9,"/uL",resulted
+LAB-01127,JPR-SMS,PT-100749,"Fasting glucose",FBS,2026-07-31,,"mg/dL",ordered
+LAB-01128,JPR-NAR,PT-101483,"Serum creatinine",CREA,2026-03-15,37,"mg/dL",resulted
+LAB-01129,JPR-SMS,PT-101197,"Fasting glucose",FBS,2026-05-18,,"mg/dL",collected
+LAB-01130,JPR-FORT,PT-101207,"Haemoglobin",Hb,2026-07-08,133,"g/dL",resulted
+LAB-01131,JPR-MET,PT-100278,"Serum creatinine",CREA,2026-07-06,,"mg/dL",collected
+LAB-01132,JPR-MET,PT-100576,"Fasting glucose",FBS,2026-02-19,132,"mg/dL",resulted
+LAB-01133,JPR-NAR,PT-101496,"Serum sodium",NA,2026-01-09,160,"mmol/L",resulted
+LAB-01134,JPR-FORT,PT-100310,"Chest X-ray",CXR,2026-09-27,,"",collected
+LAB-01135,JPR-FORT,PT-100814,"Serum sodium",NA,2026-07-09,41,"mmol/L",resulted
+LAB-01136,JPR-MET,PT-101214,"Serum sodium",NA,2026-10-11,152,"mmol/L",resulted
+LAB-01137,JPR-NAR,PT-101212,"Fasting glucose",FBS,2026-05-13,27,"mg/dL",resulted
+LAB-01138,JPR-MET,PT-101515,"Serum creatinine",CREA,2026-06-06,145,"mg/dL",resulted
+LAB-01139,JPR-NAR,PT-101091,"Haemoglobin",Hb,2026-10-16,63,"g/dL",resulted
+LAB-01140,JPR-SMS,PT-101059,"Serum sodium",NA,2026-01-09,4,"mmol/L",resulted
+LAB-01141,JPR-MET,PT-100150,"Total leukocyte count",TLC,2026-10-13,32,"/uL",resulted
+LAB-01142,JPR-NAR,PT-101282,"Serum sodium",NA,2026-02-23,56,"mmol/L",resulted
+LAB-01143,JPR-SMS,PT-101171,"Fasting glucose",FBS,2026-09-22,176,"mg/dL",resulted
+LAB-01144,JPR-FORT,PT-100943,"Haemoglobin",Hb,2026-07-15,167,"g/dL",resulted
+LAB-01145,JPR-NAR,PT-100255,"Chest X-ray",CXR,2026-05-22,42,"",resulted
+LAB-01146,JPR-NAR,PT-100159,"Chest X-ray",CXR,2026-09-01,171,"",resulted
+LAB-01147,JPR-SMS,PT-101132,"HbA1c",HBA1C,2026-02-06,43,"%",resulted
+LAB-01148,JPR-SMS,PT-101297,"Serum creatinine",CREA,2026-04-23,151,"mg/dL",resulted
+LAB-01149,JPR-NAR,PT-101101,"Serum creatinine",CREA,2026-02-17,,"mg/dL",ordered
+LAB-01150,JPR-FORT,PT-100207,"HbA1c",HBA1C,2026-02-06,149,"%",resulted
+LAB-01151,JPR-FORT,PT-100232,"Serum creatinine",CREA,2026-02-16,18,"mg/dL",resulted
+LAB-01152,JPR-NAR,PT-101331,"Serum creatinine",CREA,2026-01-05,,"mg/dL",cancelled
+LAB-01153,JPR-SMS,PT-100443,"Serum creatinine",CREA,2026-09-05,42,"mg/dL",resulted
+LAB-01154,JPR-FORT,PT-100611,"HbA1c",HBA1C,2026-04-18,77,"%",resulted
+LAB-01155,JPR-MET,PT-101121,"Total leukocyte count",TLC,2026-03-05,119,"/uL",resulted
+LAB-01156,JPR-FORT,PT-100990,"HbA1c",HBA1C,2026-09-03,88,"%",resulted
+LAB-01157,JPR-SMS,PT-101332,"Total leukocyte count",TLC,2026-02-11,141,"/uL",resulted
+LAB-01158,JPR-MET,PT-100631,"Fasting glucose",FBS,2026-05-09,140,"mg/dL",resulted
+LAB-01159,JPR-FORT,PT-100812,"HbA1c",HBA1C,2026-02-25,,"%",cancelled
+LAB-01160,JPR-SMS,PT-101091,"Total leukocyte count",TLC,2026-10-22,63,"/uL",resulted
+LAB-01161,JPR-NAR,PT-101415,"Serum sodium",NA,2026-07-19,31,"mmol/L",resulted
+LAB-01162,JPR-NAR,PT-100747,"Serum sodium",NA,2026-04-04,88,"mmol/L",resulted
+LAB-01163,JPR-FORT,PT-100418,"HbA1c",HBA1C,2026-04-04,73,"%",resulted
+LAB-01164,JPR-SMS,PT-100129,"Urine routine",UR,2026-05-24,159,"",resulted
+LAB-01165,JPR-SMS,PT-101013,"Serum creatinine",CREA,2026-08-02,92,"mg/dL",resulted
+LAB-01166,JPR-MET,PT-100459,"Urine routine",UR,2026-08-28,77,"",resulted
+LAB-01167,JPR-SMS,PT-100125,"Serum creatinine",CREA,2026-07-17,136,"mg/dL",resulted
+LAB-01168,JPR-MET,PT-101469,"Haemoglobin",Hb,2026-03-05,,"g/dL",ordered
+LAB-01169,JPR-FORT,PT-100992,"Chest X-ray",CXR,2026-10-18,,"",ordered
+LAB-01170,JPR-SMS,PT-100384,"Haemoglobin",Hb,2026-06-09,70,"g/dL",resulted
+LAB-01171,JPR-FORT,PT-100736,"Fasting glucose",FBS,2026-05-13,149,"mg/dL",resulted
+LAB-01172,JPR-FORT,PT-100429,"Fasting glucose",FBS,2026-05-12,98,"mg/dL",resulted
+LAB-01173,JPR-NAR,PT-101121,"Haemoglobin",Hb,2026-10-25,134,"g/dL",resulted
+LAB-01174,JPR-FORT,PT-101012,"Total leukocyte count",TLC,2026-04-19,84,"/uL",resulted
+LAB-01175,JPR-FORT,PT-101120,"Total leukocyte count",TLC,2026-02-14,122,"/uL",resulted
+LAB-01176,JPR-SMS,PT-100050,"Total leukocyte count",TLC,2026-06-16,,"/uL",cancelled
+LAB-01177,JPR-NAR,PT-100423,"Haemoglobin",Hb,2026-05-20,8,"g/dL",resulted
+LAB-01178,JPR-MET,PT-101180,"Urine routine",UR,2026-01-08,51,"",resulted
+LAB-01179,JPR-FORT,PT-100710,"Serum creatinine",CREA,2026-05-24,72,"mg/dL",resulted
+LAB-01180,JPR-MET,PT-100658,"Chest X-ray",CXR,2026-02-17,90,"",resulted
+LAB-01181,JPR-FORT,PT-101056,"Serum creatinine",CREA,2026-04-04,144,"mg/dL",resulted
+LAB-01182,JPR-FORT,PT-100831,"Urine routine",UR,2026-02-06,179,"",resulted
+LAB-01183,JPR-NAR,PT-100954,"Haemoglobin",Hb,2026-01-22,105,"g/dL",resulted
+LAB-01184,JPR-FORT,PT-101337,"Serum sodium",NA,2026-05-16,46,"mmol/L",resulted
+LAB-01185,JPR-SMS,PT-100474,"Serum sodium",NA,2026-06-24,81,"mmol/L",resulted
+LAB-01186,JPR-NAR,PT-100440,"Urine routine",UR,2026-05-02,33,"",resulted
+LAB-01187,JPR-SMS,PT-101140,"Haemoglobin",Hb,2026-01-31,,"g/dL",ordered
+LAB-01188,JPR-FORT,PT-101117,"Chest X-ray",CXR,2026-10-07,43,"",resulted
+LAB-01189,JPR-MET,PT-100832,"Fasting glucose",FBS,2026-02-21,,"mg/dL",ordered
+LAB-01190,JPR-MET,PT-100154,"Total leukocyte count",TLC,2026-04-29,78,"/uL",resulted
+LAB-01191,JPR-FORT,PT-100803,"Haemoglobin",Hb,2026-07-05,148,"g/dL",resulted
+LAB-01192,JPR-SMS,PT-101403,"Haemoglobin",Hb,2026-04-30,6,"g/dL",resulted
+LAB-01193,JPR-MET,PT-100574,"Fasting glucose",FBS,2026-04-21,111,"mg/dL",resulted
+LAB-01194,JPR-FORT,PT-100171,"Serum creatinine",CREA,2026-03-31,157,"mg/dL",resulted
+LAB-01195,JPR-MET,PT-101079,"Chest X-ray",CXR,2026-08-11,,"",collected
+LAB-01196,JPR-SMS,PT-100492,"Urine routine",UR,2026-04-01,115,"",resulted
+LAB-01197,JPR-NAR,PT-100220,"Fasting glucose",FBS,2026-02-20,36,"mg/dL",resulted
+LAB-01198,JPR-SMS,PT-100827,"Chest X-ray",CXR,2026-03-13,77,"",resulted
+LAB-01199,JPR-MET,PT-100435,"Haemoglobin",Hb,2026-07-21,73,"g/dL",resulted
+LAB-01200,JPR-NAR,PT-100001,"Chest X-ray",CXR,2026-04-20,,"",collected
