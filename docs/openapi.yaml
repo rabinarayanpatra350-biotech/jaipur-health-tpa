@@ -1,0 +1,437 @@
+openapi: 3.1.0
+info:
+  title: Jaipur Health TPA — Clinic Platform API
+  version: 1.0.0
+  description: |
+    Appointments, admissions, e-prescriptions and claims metrics for four hospitals.
+
+    **Conventions** — every success is `{ "data": … }` (lists add `{ "meta": … }`); every error is
+    `{ "error": { "code", "message", "details"? } }`. Authentication is a 15-minute JWT access token in
+    `Authorization: Bearer <token>`, refreshed with a 30-day rotating refresh token.
+  license: { name: MIT }
+servers:
+  - url: http://localhost:4000/api
+    description: Local
+  - url: https://hospital-platform-api.onrender.com/api
+    description: Render
+tags:
+  - name: Auth
+  - name: Hospitals
+  - name: Patients
+  - name: Appointments
+  - name: Admissions
+  - name: Prescriptions
+  - name: Metrics
+  - name: Media
+  - name: Jobs
+
+components:
+  securitySchemes:
+    bearer: { type: http, scheme: bearer, bearerFormat: JWT }
+  schemas:
+    Error:
+      type: object
+      properties:
+        error:
+          type: object
+          required: [code, message]
+          properties:
+            code: { type: string, example: VALIDATION_FAILED }
+            message: { type: string }
+            requestId: { type: string, format: uuid }
+            details:
+              type: array
+              items:
+                type: object
+                properties:
+                  field: { type: string }
+                  message: { type: string }
+    Meta:
+      type: object
+      properties:
+        page: { type: integer }
+        pageSize: { type: integer }
+        total: { type: integer }
+        totalPages: { type: integer }
+    Hospital:
+      type: object
+      properties:
+        id: { type: string, format: uuid }
+        code: { type: string, example: JPR-SMS }
+        name: { type: string }
+        city: { type: string }
+        beds: { type: integer }
+    Patient:
+      type: object
+      properties:
+        id: { type: string, format: uuid }
+        mrn: { type: string, example: PT-100001 }
+        fullName: { type: string }
+        dateOfBirth: { type: string, format: date, nullable: true }
+        gender: { type: string, enum: [male, female, other], nullable: true }
+    Appointment:
+      type: object
+      properties:
+        id: { type: string, format: uuid }
+        scheduledAt: { type: string, format: date-time }
+        status: { type: string, enum: [scheduled, completed, no_show, cancelled] }
+        diagnosisText: { type: string, nullable: true, description: What the clinician wrote. }
+        diagnosisCode: { type: string, nullable: true, description: ICD-10, derived from diagnosisText. }
+    Admission:
+      type: object
+      properties:
+        id: { type: string, format: uuid }
+        admittedAt: { type: string, format: date-time }
+        dischargeDate: { type: string, format: date, nullable: true, description: Null means the stay is still open. }
+        lengthOfStayDays: { type: integer, nullable: true, description: Null while the stay is open. }
+    Metrics:
+      type: object
+      properties:
+        window:
+          type: object
+          properties: { from: { type: string, format: date }, to: { type: string, format: date }, days: { type: integer } }
+        portfolio:
+          type: object
+          properties:
+            discharges: { type: integer }
+            avgLengthOfStayDays: { type: number }
+            occupiedBedDays: { type: integer }
+            availableBedDays: { type: integer }
+            bedOccupancyRate: { type: number, description: 0..1 }
+            readmitted30d: { type: integer }
+            readmissionRate30d: { type: number, description: 0..1 }
+        hospitals:
+          type: array
+          items:
+            allOf:
+              - $ref: '#/components/schemas/Metrics/properties/portfolio'
+              - type: object
+                properties:
+                  hospitalId: { type: string, format: uuid }
+                  hospitalName: { type: string }
+                  licensedBeds: { type: integer }
+  responses:
+    BadRequest:
+      description: Validation failed
+      content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } }
+    Unauthorized:
+      description: Missing or expired access token
+      content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } }
+    Forbidden:
+      description: The role is not allowed to do this
+      content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } }
+    NotFound:
+      description: Not found
+      content: { application/json: { schema: { $ref: '#/components/schemas/Error' } } }
+
+paths:
+  /health:
+    get:
+      tags: [Auth]
+      summary: Liveness and database connectivity
+      responses:
+        '200': { description: Healthy }
+        '503': { description: Database unreachable }
+
+  /auth/signup:
+    post:
+      tags: [Auth]
+      summary: Register a patient account
+      description: Always creates a `patient`. Staff accounts are created by an admin.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password, fullName]
+              properties:
+                email: { type: string, format: email }
+                password: { type: string, minLength: 10, description: At least one letter and one number }
+                fullName: { type: string, minLength: 2 }
+      responses:
+        '201': { description: Created }
+        '409': { description: Email already registered }
+        '422': { $ref: '#/components/responses/BadRequest' }
+
+  /auth/login:
+    post:
+      tags: [Auth]
+      summary: Exchange credentials for tokens
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password]
+              properties: { email: { type: string }, password: { type: string } }
+      responses:
+        '200': { description: Access and refresh tokens }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  /auth/refresh:
+    post:
+      tags: [Auth]
+      summary: Rotate a refresh token
+      description: The presented token is revoked and replaced. Replaying a burned token revokes the whole family.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { type: object, properties: { refreshToken: { type: string } } }
+      responses:
+        '200': { description: New token pair }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  /auth/logout:
+    post:
+      tags: [Auth]
+      summary: Revoke the presented refresh token
+      responses: { '200': { description: Revoked } }
+
+  /auth/me:
+    get:
+      tags: [Auth]
+      summary: The caller's own account
+      security: [{ bearer: [] }]
+      responses:
+        '200': { description: OK }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  /hospitals:
+    get:
+      tags: [Hospitals]
+      summary: List hospitals
+      parameters:
+        - { in: query, name: q, schema: { type: string } }
+        - { in: query, name: minBeds, schema: { type: integer } }
+        - { in: query, name: page, schema: { type: integer, default: 1 } }
+        - { in: query, name: pageSize, schema: { type: integer, default: 20, maximum: 100 } }
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data: { type: array, items: { $ref: '#/components/schemas/Hospital' } }
+                  meta: { $ref: '#/components/schemas/Meta' }
+
+  /hospitals/{id}:
+    get:
+      tags: [Hospitals]
+      summary: One hospital with its counts
+      parameters: [{ in: path, name: id, required: true, schema: { type: string, format: uuid } }]
+      responses:
+        '200': { description: OK }
+        '404': { $ref: '#/components/responses/NotFound' }
+    patch:
+      tags: [Hospitals]
+      summary: Update a hospital (admin)
+      security: [{ bearer: [] }]
+      parameters: [{ in: path, name: id, required: true, schema: { type: string, format: uuid } }]
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties: { name: { type: string }, city: { type: string }, beds: { type: integer } }
+      responses:
+        '200': { description: Updated }
+        '403': { $ref: '#/components/responses/Forbidden' }
+
+  /patients:
+    get:
+      tags: [Patients]
+      summary: List and search patients (clinician, admin)
+      security: [{ bearer: [] }]
+      parameters:
+        - { in: query, name: q, schema: { type: string } }
+        - { in: query, name: mrn, schema: { type: string } }
+      responses:
+        '200': { description: OK }
+        '403': { $ref: '#/components/responses/Forbidden' }
+    post:
+      tags: [Patients]
+      summary: Register a patient (clinician, admin)
+      security: [{ bearer: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [mrn, fullName]
+              properties:
+                mrn: { type: string, pattern: '^[A-Za-z0-9-]+$' }
+                fullName: { type: string }
+                dateOfBirth: { type: string, format: date }
+                gender: { type: string, enum: [male, female, other] }
+                phone: { type: string }
+      responses:
+        '201': { description: Created }
+        '409': { description: MRN already exists }
+        '422': { $ref: '#/components/responses/BadRequest' }
+
+  /appointments:
+    get:
+      tags: [Appointments]
+      summary: List appointments
+      security: [{ bearer: [] }]
+      parameters:
+        - { in: query, name: hospitalId, schema: { type: string, format: uuid } }
+        - { in: query, name: status, schema: { type: string, enum: [scheduled, completed, no_show, cancelled] } }
+        - { in: query, name: from, schema: { type: string, format: date } }
+        - { in: query, name: to, schema: { type: string, format: date } }
+      responses: { '200': { description: OK } }
+    post:
+      tags: [Appointments]
+      summary: Book an appointment (clinician, admin)
+      description: Codes the diagnosis and enqueues a patient confirmation and a clinic alert in the same transaction.
+      security: [{ bearer: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [hospitalId, patientId, scheduledAt]
+              properties:
+                hospitalId: { type: string, format: uuid }
+                patientId: { type: string, format: uuid }
+                scheduledAt: { type: string, format: date-time }
+                durationMin: { type: integer, default: 15 }
+                diagnosisText: { type: string, description: Free text; mapped to ICD-10 automatically. }
+      responses:
+        '201': { description: Created }
+        '404': { $ref: '#/components/responses/NotFound' }
+        '422': { $ref: '#/components/responses/BadRequest' }
+
+  /admissions:
+    get:
+      tags: [Admissions]
+      summary: List admissions (clinician, admin)
+      security: [{ bearer: [] }]
+      parameters:
+        - { in: query, name: open, schema: { type: string, enum: ['true', 'false'] }, description: Only stays without a discharge date }
+      responses: { '200': { description: OK } }
+    post:
+      tags: [Admissions]
+      summary: Admit a patient
+      security: [{ bearer: [] }]
+      responses: { '201': { description: Created } }
+
+  /admissions/{id}:
+    patch:
+      tags: [Admissions]
+      summary: Discharge a patient
+      description: Sets the discharge date, which is what turns an open stay into a measurable length of stay.
+      security: [{ bearer: [] }]
+      parameters: [{ in: path, name: id, required: true, schema: { type: string, format: uuid } }]
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                dischargeDate: { type: string, format: date }
+                dischargeDisposition: { type: string, enum: [home, transfer, deceased, ama] }
+      responses:
+        '200': { description: Discharged }
+        '400': { description: Discharge date precedes the admission }
+
+  /prescriptions:
+    post:
+      tags: [Prescriptions]
+      summary: Issue an e-prescription (clinician, admin)
+      security: [{ bearer: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [patientId, items]
+              properties:
+                patientId: { type: string, format: uuid }
+                items:
+                  type: array
+                  minItems: 1
+                  items:
+                    type: object
+                    required: [drug]
+                    properties:
+                      drug: { type: string }
+                      dose: { type: string }
+                      frequency: { type: string }
+                      durationDays: { type: integer }
+      responses: { '201': { description: Issued } }
+    get:
+      tags: [Prescriptions]
+      summary: List prescriptions (a patient sees only their own)
+      security: [{ bearer: [] }]
+      responses: { '200': { description: OK } }
+
+  /metrics:
+    get:
+      tags: [Metrics]
+      summary: Average length of stay, bed occupancy and 30-day readmission
+      security: [{ bearer: [] }]
+      parameters:
+        - { in: query, name: from, required: true, schema: { type: string, format: date } }
+        - { in: query, name: to, required: true, schema: { type: string, format: date } }
+        - { in: query, name: hospitalId, schema: { type: string, format: uuid } }
+      responses:
+        '200':
+          description: OK
+          content: { application/json: { schema: { $ref: '#/components/schemas/Metrics' } } }
+        '403': { $ref: '#/components/responses/Forbidden' }
+        '422': { $ref: '#/components/responses/BadRequest' }
+
+  /metrics/{hospitalId}/occupancy:
+    get:
+      tags: [Metrics]
+      summary: Daily bed-occupancy series for one hospital
+      security: [{ bearer: [] }]
+      parameters: [{ in: path, name: hospitalId, required: true, schema: { type: string, format: uuid } }]
+      responses: { '200': { description: OK } }
+
+  /media:
+    post:
+      tags: [Media]
+      summary: Upload a file (PNG, JPEG, WebP or PDF, max 5 MB)
+      security: [{ bearer: [] }]
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required: [file, entityType, entityId]
+              properties:
+                file: { type: string, format: binary }
+                entityType: { type: string, enum: [patient, hospital, prescription] }
+                entityId: { type: string, format: uuid }
+      responses:
+        '201': { description: Stored }
+        '400': { description: Unsupported type or missing fields }
+    get:
+      tags: [Media]
+      summary: List files attached to an entity
+      security: [{ bearer: [] }]
+      responses: { '200': { description: OK } }
+
+  /jobs:
+    get:
+      tags: [Jobs]
+      summary: Queue depth and recent jobs (admin)
+      security: [{ bearer: [] }]
+      responses: { '200': { description: OK } }
+  /jobs/emails:
+    get:
+      tags: [Jobs]
+      summary: Recent email delivery attempts (admin)
+      security: [{ bearer: [] }]
+      responses: { '200': { description: OK } }
